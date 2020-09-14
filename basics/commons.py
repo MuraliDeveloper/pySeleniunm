@@ -1,4 +1,4 @@
-driver_url="C://Users//NareshT//Downloads//chromedriver.exe"
+driver_url="C:\Murali\Training\Selenium\chromedriver_win32"
 app_url="http://localhost:8084/testFb1/"
 
 

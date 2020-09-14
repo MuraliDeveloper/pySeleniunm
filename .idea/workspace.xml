@@ -1,4 +1,244 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ca1a311-27f1-448d-b9ee-3409114f6c3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Progs/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/Ex3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/Ex4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/Ex5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unitTestEx/basetest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PySelenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PySelenium.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/basics/DataGeneration_DSC.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/basics/DataGeneration_TM.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/basics/Ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Ex1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/basics/RES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/basics/tm.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/basics/tm_perf_2week-3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/basics/week6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/basics/week7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/report/Ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/Ex1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/report/TestResults___main__.MyTest_2020-08-05_17-17-00.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/TestResults___main__.MyTest_2020-08-05_17-17-00.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/report/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/report/inst" beforeDir="false" afterPath="$PROJECT_DIR$/report/inst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/12.Cookies.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/1DriverSetUp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/2Commands.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/3Navigations.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Ex2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/Ex2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/seleRef/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/unitTestEx/Ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/Ex1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/unitTestEx/Ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/Ex2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/unitTestEx/SUITE.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestsuit/Ex3SUITE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/unitTestEx/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/unitTestEx/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/unitTestEx/lifecycle.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/lifecycle.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/unitTestEx/skip.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/skip.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/unitTestEx/suite.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestsuit/suite.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/commons.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/commons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex11.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/ex11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/example1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/example2.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/example2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/example3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/module1.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/module1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/prg.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/prg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/unittest1.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/unittest1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/unittest2.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/unittest2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/unittest3.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/unittest3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/unittest4.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/unittest4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/unittest5.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/unittest5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/unittest6.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/unittest6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/unittest7.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/unittest7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/unittest8.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/unittest8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suit/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestsuit/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suit/ex11.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestsuit/ex11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suit/ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestsuit/ex2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suit/ex3.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestsuit/ex3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suit/mysuit.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestsuit/mysuit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/appdirs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/appdirs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connection.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1USd7fUlpR1q6tDQ5qAKJnqvGBQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/unitTestEx" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Murali\Training\Git\PySelenium\unitTestEx" />
+      <recent name="C:\Murali\Training\Git\PySelenium\basics" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Murali\Training\Git\PySelenium\suit" />
+      <recent name="C:\Murali\Training\Git\PySelenium" />
+      <recent name="C:\Murali\Training\Git\PySelenium\unitTestEx" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.mysuit">
+    <configuration name="Ex2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySelenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/Ex2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex11 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySelenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/ex11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Progs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Progs/basics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Progs/basics/ex11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mysuit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySelenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTestsuit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unitTestsuit/mysuit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mysuit" />
+        <item itemvalue="Python.Ex2" />
+        <item itemvalue="Python.ex11 (1)" />
+        <item itemvalue="Python.ex11" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ca1a311-27f1-448d-b9ee-3409114f6c3f" name="Default Changelist" comment="" />
+      <created>1600054918145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600054918145</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600056972718">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600056972718" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600059259634">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600059259634" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1600060033217">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600060033217" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1600060033217">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600060033217" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1600060033217">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600060033217" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1600060033217">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600060033217" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1600056511138">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600056511138" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/basics/Ex4.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
 </project>
