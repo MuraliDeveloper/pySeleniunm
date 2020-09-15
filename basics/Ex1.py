@@ -15,7 +15,7 @@ step3: driver.close()
 
 """
 # get driver
-driver = webdriver.Chrome(executable_path="C:\Murali\Training\chromedriver_win32\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="C:\Murali\Training\Selenium\chromedriver_win32\chromedriver.exe")
 #driver = webdriver.Firefox(executable_path ="C:\Murali\firefox.exe")
 #driver = webdriver.Ie(executable_path ="C:\Murali\ie.exe")
 

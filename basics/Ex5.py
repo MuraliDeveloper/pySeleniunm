@@ -1,5 +1,8 @@
 from selenium import webdriver
 import time
+
+
+
 """
 1.open browser
 2.navigate to ggogle website 
@@ -15,8 +18,9 @@ step3: driver.close()
  maximize_window ,Refresh , forward, back 
 
 """
+from basics import commons
 # get driver
-driver = webdriver.Chrome(executable_path="C:\Murali\Training\chromedriver_win32\chromedriver.exe")
+driver = webdriver.Chrome(executable_path=commons.driver_url)
 
 #open google.com
 driver.get("https://www.google.co.in")

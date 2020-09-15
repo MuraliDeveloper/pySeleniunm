@@ -1,5 +1,5 @@
 import unittest
-import commons
+from basics import commons
 from selenium import webdriver
 import time
 
@@ -19,7 +19,7 @@ class MyTest(unittest.TestCase):     # Create a class which is a childclass of u
         driver = webdriver.Chrome(executable_path=commons.driver_url)
 
         # open google.com
-        driver.get(commons.App_URL + "drag.html")
+        driver.get(commons.App_URL + "3.html")
         time.sleep(5)
         driver.close()
 

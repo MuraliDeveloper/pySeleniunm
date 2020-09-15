@@ -1,5 +1,5 @@
 import unittest
-from unittest_data_provider import data_provider
+from unittest_dataprovider import data_provider
 
 
 class PythonOrgSearch(unittest.TestCase):

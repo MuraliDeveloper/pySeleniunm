@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Progs/.idea/Progs.iml" filepath="$PROJECT_DIR$/Progs/.idea/Progs.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PySelenium.iml" filepath="$PROJECT_DIR$/.idea/PySelenium.iml" />
       <module fileurl="file://$PROJECT_DIR$/../PythonProgs-master/.idea/PyTrain.iml" filepath="$PROJECT_DIR$/../PythonProgs-master/.idea/PyTrain.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pyDjango/.idea/pyDjango.iml" filepath="$PROJECT_DIR$/../pyDjango/.idea/pyDjango.iml" />

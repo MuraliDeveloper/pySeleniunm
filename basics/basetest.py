@@ -1,6 +1,6 @@
 #basetext
 import unittest
-import commons
+from basics import commons
 from selenium import webdriver
 
 

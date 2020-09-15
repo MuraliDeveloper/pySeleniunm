@@ -1,6 +1,6 @@
-driver_url="C:\Murali\Training\Selenium\chromedriver_win32"
-app_url="http://localhost:8084/testFb1/"
-
+driver_url="C:\Murali\Training\Selenium\chromedriver_win32\chromedriver.exe"
+app_url="http://localhost:8080/testFb/"
+App_URL="http://localhost:8080/testFb/"
 
 """
 

@@ -77,6 +77,7 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
         action.send_keys_to_element(textobj, Keys.ENTER)
         action.perform()
         time.sleep(5)
+
     def test5(self):
         self.driver.get("https://www.google.com")
         cookies = self.driver.get_cookies()
