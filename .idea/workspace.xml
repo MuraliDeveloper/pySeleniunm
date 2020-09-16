@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ca1a311-27f1-448d-b9ee-3409114f6c3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/unitTestEx/Ex4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unitTestEx/file.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Old/datapro/Ex1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Old/datapro/Ex2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Old/datapro/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Old/pytestex/Ex.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Old/pytestex/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Progs/.idea/Progs.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Progs/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Progs/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Ex1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Ex2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Ex5.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Ex5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/basetest.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/basetest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/commons.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/commons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/ex11.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataprovider/ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataprovider/ex2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataprovider/example1.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataprovider/example1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitTestEx/Ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/Ex2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitTestEx/example2.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/Ex3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitTestEx/module1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitTestEx/prg.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/Ex_formHtml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitTestEx/unittest2.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/unittest2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitTestEx/unittest6.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/unittest6_windows.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitTestEx/unittest7.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/unittest7.py" afterDir="false" />
-    </list>
+    <list default="true" id="4ca1a311-27f1-448d-b9ee-3409114f6c3f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
