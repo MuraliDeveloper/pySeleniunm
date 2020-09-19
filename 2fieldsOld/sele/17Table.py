@@ -1,6 +1,8 @@
 from selenium import webdriver
 
-driver = webdriver.Chrome(executable_path ="C:\Murali\Mythri Progs\selenium\chromedriver_win32\chromedriver.exe")
+from basics.commons import getChromeDriver
+
+driver = getChromeDriver()
 driver.maximize_window()
 driver.get("")
 

@@ -3,6 +3,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+
+from basics.commons import getChromeDriver
+
 """
 implicit wait -> [time based] chance of exceotion if the element is nit loaded withoin 10 sec
 explicit wait  -> [upon the element is available not time based.]
@@ -13,7 +16,7 @@ wait for the element applicable for only
 """
 user = "abc"
 pwd = "xyz"
-driver = webdriver.Chrome('C:\\Murali\\Training\\chromedriver_win32\\chromedriver.exe')
+driver = getChromeDriver()
 driver.get("http://www.facebook.com")
 
 driver.implicitly_wait(10)

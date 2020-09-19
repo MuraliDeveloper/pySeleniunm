@@ -2,10 +2,13 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from basics import commons
+from basics.commons import getChromeDriver
+
+
 class PythonOrgSearch(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome(executable_path =commons.driver_url)
+        self.driver = getChromeDriver()
 
     def tearDown(self):
         self.driver.close()

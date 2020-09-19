@@ -1,7 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ca1a311-27f1-448d-b9ee-3409114f6c3f" name="Default Changelist" comment="" />
+    <list default="true" id="4ca1a311-27f1-448d-b9ee-3409114f6c3f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/basics/Ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/Ex2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/basics/Ex3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/basics/WindowAlert.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/WindowAlert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/basics/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/basics/test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/basics/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/10FindElements.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/10FindElements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/11.DragAndDrop.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/11.DragAndDrop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/13.Scroll.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/13.Scroll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/14.MouseHover.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/14.MouseHover.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/15.Keys1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/15.Keys1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/15.Keys2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/15.Keys2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/16Frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/16Frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/17Table.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/17Table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/4ConditionalCommands.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/4ConditionalCommands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/5.WaitCommands.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/5.WaitCommands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/6.WaitCommands.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/6.WaitCommands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/7.InputText.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/7.InputText.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/Ex10Window.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/Ex10Window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/Ex22.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/Ex22.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/Ex3GetAllLinks.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/Ex3GetAllLinks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/Ex4.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/Ex4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/Ex5Locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/Ex5Locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/Ex6Dropdown.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/Ex6Dropdown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/Ex7Alert.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/Ex7Alert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/Ex8Alert2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/Ex8Alert2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/Ex9AlertWithMsg.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/Ex9AlertWithMsg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/sele/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/sele/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/seleRef/DriverSetUp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/seleRef/Ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/FbTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/seleRef/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Old/seleRef/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/commons.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/commons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/Ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/Ex2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/Ex3.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/Ex3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/Ex4.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/Ex4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/_pytest/reports.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/_pytest/reports.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/_pytest/warnings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/_pytest/warnings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/attr/_make.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/attr/_make.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/nodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jinja2/nodes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/cli/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/cli/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/_backport/tarfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/_backport/tarfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/metadata.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/metadata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distro.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pyparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pyparsing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/_collections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/contrib/pyopenssl.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/contrib/pyopenssl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/fields.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/filepost.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/filepost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/poolmanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/poolmanager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/util/wait.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/util/wait.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/webelement.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/webelement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/_collections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/pyopenssl.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/pyopenssl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/fields.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/filepost.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/filepost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/ssl_match_hostname/_implementation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/ssl_match_hostname/_implementation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/poolmanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/poolmanager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/wait.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/wait.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,12 +103,91 @@
       <recent name="C:\Murali\Training\Git\PySelenium\basics" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\listCompre" />
+      <recent name="C:\Murali\Training\Git\PySelenium\2fieldsOld\sele" />
+      <recent name="C:\Murali\Training\Git\PySelenium\2fieldsOld" />
       <recent name="C:\Murali\Training\Git\PySelenium\suit" />
       <recent name="C:\Murali\Training\Git\PySelenium" />
-      <recent name="C:\Murali\Training\Git\PySelenium\unitTestEx" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for Ex_formHtml.MyTest">
+  <component name="RunManager" selected="Python.__init__">
+    <configuration name="4ConditionalCommands" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PySelenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2fieldsOld/sele" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2fieldsOld/sele/4ConditionalCommands.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AdvInput2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTrain" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/listCompre" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/listCompre/AdvInput2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTrain" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/listCompre" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/listCompre/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for Ex1.MyTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PySelenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTestEx" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Ex1.MyTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for Ex_formHtml.MyTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PySelenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,69 +202,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Ex_formHtml.MyTest.test3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="PySelenium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTestEx" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Ex_formHtml.MyTest.test3&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for unittest2.MyTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="PySelenium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTestEx" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittest2.MyTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for unittest2.MyTest.test1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="PySelenium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTestEx" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittest2.MyTest.test1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in Ex3.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="PySelenium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTestEx" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/unitTestEx/Ex3.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.AdvInput2" />
+        <item itemvalue="Python.4ConditionalCommands" />
+        <item itemvalue="Python tests.Unittests for Ex1.MyTest" />
         <item itemvalue="Python tests.Unittests for Ex_formHtml.MyTest" />
-        <item itemvalue="Python tests.Unittests for Ex_formHtml.MyTest.test3" />
-        <item itemvalue="Python tests.Unittests in Ex3.py" />
-        <item itemvalue="Python tests.Unittests for unittest2.MyTest.test1" />
-        <item itemvalue="Python tests.Unittests for unittest2.MyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -138,22 +234,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600059259634" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1600092367310">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1600442539394">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600092367310" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1600092367309">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600442539394" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1600442539393">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600092367309" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1600092367309">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600442539393" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1600442539393">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600092367309" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1600092367310">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600442539393" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1600442539394">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600092367310" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600442539394" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1600086549264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
