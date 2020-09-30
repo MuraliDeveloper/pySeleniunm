@@ -4,5 +4,12 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="DDS" />
+    <orderEntry type="module" module-name="PythonSep21" />
+    <orderEntry type="module" module-name="pythonNew" />
+    <orderEntry type="module" module-name="myprojects" />
+    <orderEntry type="module" module-name="myprojects" />
+    <orderEntry type="module" module-name="myprojects" />
+    <orderEntry type="module" module-name="MyApps" />
   </component>
 </module>

@@ -15,7 +15,7 @@ class PythonOrgSearch(unittest.TestCase):
 
     def test_search_in_python_org(self):
         driver = self.driver
-        driver.get("http://www.python.org")
+        driver.get("http://www.youtube.org")
         self.assertEqual("my title", driver.title,"invalid title")
         self.assertIn("Python", driver.title)
         elem = driver.find_element_by_name("q")

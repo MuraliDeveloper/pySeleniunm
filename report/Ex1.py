@@ -14,4 +14,4 @@ class MyTest(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='C:/Murali/Training/pythonWork/PySelenium/report'))
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='C:/report'))

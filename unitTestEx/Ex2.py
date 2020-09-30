@@ -1,5 +1,8 @@
 
+"""
 
+write test case for opening google and youtube
+"""
 
 
 import unittest
@@ -19,3 +22,11 @@ class MyTest(unittest.TestCase):     # Create a class which is a childclass of u
     def tearDown(self):
         print("teardown function is called")
         self.driver.close()
+
+    def testGoogle(self):
+        print("setup function called")
+        self.driver.get("https://www.google.com")
+
+    def testYoutub(self):
+        print("setup function called")
+        self.driver.get("https://www.youtube.com")

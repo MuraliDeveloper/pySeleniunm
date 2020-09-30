@@ -23,8 +23,8 @@ class MyTest(unittest.TestCase):
         print("test2-register")
 
    # @unittest.skip("skipped")
-    #@unittest.SkipTest
-    def test2(self):
+    @unittest.SkipTest
+    def test3(self):
         print("test2-register")
 
 if __name__ == "__main__":
