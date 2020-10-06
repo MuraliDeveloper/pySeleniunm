@@ -1,0 +1,42 @@
+
+for every element on html we need to create the web element object
+
+How to get web element object using field name
+<input type="text" id="myname" name="uName" />
+element= driver.find_element_by_name("uName")
+
+
+How to get web element object using field id
+ <input type="radio" name="gender" id="mRadio" value="male" checked> Male<br>
+  <input type="radio" name="gender" id="fRadio" value="female"> Female<br>
+  <input type="radio" name="gender" id="oRadio" value="other"> Other
+element= driver.find_element_by_name("mRadio")
+
+how to check if element is enabled and displayed:
+element.is_enabled() -> returns boolean
+element.is_displayed() -> returns boolean
+
+How to perform click on radio/link/button/check box?
+element.click()
+
+How to send data to the text field
+element.send_keys("kumar")
+
+
+How to test if the elemnt is selected?
+ <input type="radio" name="gender" id="mRadio" value="male" checked> Male<br>
+ element= driver.find_element_by_name("mRadio")
+	use element.is_selected() : returns boolean
+
+
+how to get the attribute for web element and howto assert ?
+  <input type="text" id="myname" name="uName" /> <br>
+   <input type="text" name="LName" size="30"  width="30"/>
+   <input type="hidden" name="uType" value="agent"/>
+   <input type = "password" name = "password" />
+firstnameobj = self.driver.find_element_by_name("uName")#get we using field name
+lastnameobj = self.driver.find_element_by_name("LName")
+passwordobj = self.driver.find_element_by_name("password")
+self.assertEqual(firstnameobj.get_attribute("type"), "text")
+self.assertEqual(lastnameobj.get_attribute("type"), "text")
+self.assertEqual(passwordobj.get_attribute("type"), "password")

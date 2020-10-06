@@ -108,12 +108,29 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
         selectObj.select_by_visible_text('Mumbai')
         time.sleep(5)
 
+    """
+    validate and send data to firstname,lastname ,password
+    
+    """
     def test1(self):
         # open google.com
-
-        firstnameobj = self.driver.find_element_by_name("uName")
+        # get web elements obj
+        firstnameobj = self.driver.find_element_by_name("uName")#get we using field name
         lastnameobj = self.driver.find_element_by_name("LName")
         passwordobj = self.driver.find_element_by_name("password")
+
+        """
+         #validate web elements obj
+         self.assertTrue(firstnameobj.is_enabled())
+         self.assertTrue(firstnameobj.is_displayed())
+        """
+
+        """
+            #send data to web page using the  web elements obj
+            firstnameobj.send_keys("kumar")
+            lastnameobj.send_keys("raj")
+            passwordobj.send_keys("hello 123")
+        """
         self.checkdisplayandenabled(firstnameobj,lastnameobj, passwordobj)
         self.assertEqual(firstnameobj.get_attribute("type"), "text")
         self.assertEqual(lastnameobj.get_attribute("type"), "text")

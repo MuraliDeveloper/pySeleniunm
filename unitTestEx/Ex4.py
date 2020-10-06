@@ -14,14 +14,10 @@ class PythonOrgSearch(unittest.TestCase):
         self.driver.close()
 
     def test_search_in_python_org(self):
-        driver = self.driver
-        driver.get("http://www.youtube.org")
-        self.assertEqual("my title", driver.title,"invalid title")
-        self.assertIn("Python", driver.title)
-        elem = driver.find_element_by_name("q")
-        elem.send_keys("pycon")
-        elem.send_keys(Keys.RETURN)
-        assert "No results found." not in driver.page_source
+        self.driver.get(commons.App_URL + "2.html")
+        self.assertEqual("my title", self.driver.title,"invalid title")
+        self.assertIn("Python", self.driver.title)
+
 
 
     def test3(self):
