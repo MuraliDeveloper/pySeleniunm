@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ca1a311-27f1-448d-b9ee-3409114f6c3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/unitTestEx/Notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PySelenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PySelenium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitTestEx/Ex3.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/Ex3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitTestEx/Ex4.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/Ex4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitTestEx/Ex_formHtml.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/Ex_formHtml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitTestEx/file.csv" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/file.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
