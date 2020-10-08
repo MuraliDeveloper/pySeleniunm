@@ -34,9 +34,34 @@ how to get the attribute for web element and howto assert ?
    <input type="text" name="LName" size="30"  width="30"/>
    <input type="hidden" name="uType" value="agent"/>
    <input type = "password" name = "password" />
-firstnameobj = self.driver.find_element_by_name("uName")#get we using field name
-lastnameobj = self.driver.find_element_by_name("LName")
-passwordobj = self.driver.find_element_by_name("password")
-self.assertEqual(firstnameobj.get_attribute("type"), "text")
-self.assertEqual(lastnameobj.get_attribute("type"), "text")
-self.assertEqual(passwordobj.get_attribute("type"), "password")
+firstnameobj =  driver.find_element_by_name("uName")#get we using field name
+lastnameobj =  driver.find_element_by_name("LName")
+passwordobj =  driver.find_element_by_name("password")
+assertEqual(firstnameobj.get_attribute("type"), "text")
+assertEqual(lastnameobj.get_attribute("type"), "text")
+assertEqual(passwordobj.get_attribute("type"), "password")
+
+
+How to get al options under the select?
+all_options = citydropdownobj.find_elements_by_tag_name("option")
+
+How to print option data?
+ for option in all_options:
+            print("Value is: ", option.get_attribute("value"))
+            print("text  is: ", option.text)
+
+How to select the option under dropdown?
+1.get the select object
+2.select using INDEX OR VALUE OR VISIBLE TEXT
+
+
+<a href="ex1.html">open for Next page</a><br/>
+How to get the webelement obj for link?
+link1=driver.find_element_by_link_text("open for Next page"),
+link1=driver.find_element_by_partial_link_text("open for")
+
+
+How to get all links in the page?
+all_links = driver.find_elements_by_tag_name("a")
+
+assertEqual(2, len(all_links))
