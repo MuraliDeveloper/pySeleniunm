@@ -1,6 +1,6 @@
 #unittest5
 import unittest
-import commons
+from basics  import commons
 import csv
 from selenium import webdriver
 import time
@@ -14,21 +14,35 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
 
     def setUp(self):
         BaseTest.setUp(self)
-        self.driver.get(commons.app_url + "alert.html")
+        self.driver.get(commons.App_URL + "alert.html")
         time.sleep(5)
         self.assertEqual("Home Page", self.driver.title, "invalid title for alert.html")
-    def test1(self):
+
+    def test11(self):
+        buttonobj = self.findbyname("submit")
+        buttonobj.click()
+        alertObj = self.driver.switch_to.alert  # to get the alert obj
+        msg = alertObj.text  # to get the alert msgZAF
+        self.assertEqual("Hello", msg, "invalid msg for alert1")
+        time.sleep(5)
+        alertObj.accept()
+
+        time.sleep(5)
+        self.assertEqual(self.driver.title, "Google")
+
+    def test2(self):
         buttonobj=self.findbyname("alert1")
         buttonobj.click()
         alertObj = self.driver.switch_to.alert    #to get the alert obj
-        msg=alertObj.text  #to get the alert msg
+        msg=alertObj.text  #to get the alert msgZAF
         self.assertEqual("do you want to continue", msg, "invalid msg for alert1")
         time.sleep(5)
         alertObj.accept()
 
         time.sleep(5)
         self.assertEqual(self.driver.title,"Google")
-    def test2(self):
+
+    def test3(self):
         buttonobj = self.findbyname("alert1")
         buttonobj.click()
         alertObj = self.driver.switch_to.alert  # to get the alert obj
@@ -38,9 +52,11 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
         alertObj.dismiss()
         time.sleep(5)
         self.assertEqual(self.driver.title, "Gmail")
-    def test3(self):
+
+    def test4(self):
         buttonobj = self.findbyname("alert2")
         buttonobj.click()
+
         alertObj = self.driver.switch_to.alert  # to get the alert obj
         msg = alertObj.text  # to get the alert msg
         self.assertEqual("enter page", msg, "invalid msg for alert1")

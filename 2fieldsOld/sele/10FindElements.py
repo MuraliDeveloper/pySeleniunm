@@ -8,14 +8,6 @@ find_element_by_name(name)
 find_element_by_partial_link_text(link_text)
 find_element_by_tag_name(name)
 find_element_by_xpath(xpath)
-find_elements(by='id', value=None)
-find_elements_by_class_name(name)
-find_elements_by_css_selector(css_selector)
-find_elements_by_id(id_)
-find_elements_by_link_text(text)
-find_elements_by_name(name)
-find_elements_by_partial_link_text(link_text)
-find_elements_by_tag_name(name)
-find_elements_by_xpath(xpath)
+
 
 """

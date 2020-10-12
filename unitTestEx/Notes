@@ -65,3 +65,38 @@ How to get all links in the page?
 all_links = driver.find_elements_by_tag_name("a")
 
 assertEqual(2, len(all_links))
+
+
+how to get the alert object?
+-----------------------
+  alertObj = self.driver.switch_to.alert
+
+How to get the alert message?
+----------------------------
+ msg=alertObj.text
+
+How to click on OK button alert?
+------------------------------
+ alertObj.accept()
+
+How to click on cancel button alert?
+------------------------------
+ alertObj.dismiss()
+
+ How to enter data to the alert?
+ -------------------------------
+   alertObj.send_keys("https://www:facebook.com")
+
+
+How to get window handles?
+--------------------------
+windows=  driver.window_handles[returns an array]
+
+
+How to switch between windows?
+---------------------------
+ win1 = self.driver.window_handles[0]
+ self.driver.switch_to.window(win1)
+
+ win2 = self.driver.window_handles[1]
+ self.driver.switch_to.window(win2)

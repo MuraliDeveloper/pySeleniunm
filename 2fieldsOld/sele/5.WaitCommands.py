@@ -4,7 +4,10 @@ from selenium.webdriver.common.keys import Keys
 from basics.commons import getChromeDriver
 
 """
-implicit wait -> [time based] chance of exceotion if the element is nit loaded withoin 10 sec
+
+implicit wait -> [time based] chance of exception if the element is not loaded withoin 10 sec
+driver.implicitly_wait(10)
+
 explicit wait  -> [upon the element is available not time based.]
 wait for the element applicable for only 
 
@@ -15,9 +18,10 @@ wait for the element applicable for only
 user = "abc"
 pwd = "xyz"
 driver = getChromeDriver()
+driver.implicitly_wait(10)
 driver.get("http://www.facebook.com")
 
-driver.implicitly_wait(10)
+
 """
 An implicit wait tells WebDriver to poll the DOM for a certain amount of time when trying to find any element (or elements) not immediately available. The default setting is 0. 
 Once set, the implicit wait is set for the life of the WebDriver object.

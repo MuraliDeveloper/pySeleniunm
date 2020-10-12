@@ -28,17 +28,18 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
         win2 = self.driver.window_handles[1]
 
         self.driver.switch_to.window(win2)
+        self.assertEqual(self.driver.title, "Hello Python")
+
         fisrtobj=self.findbyname("name")
-        fisrtobj.send_keys("mahetha")
+        fisrtobj.send_keys("murali")
         secondobj=self.findbyname("password")
-        secondobj.send_keys("sowmya")
+        secondobj.send_keys("swamy")
         time.sleep(5)
 
-        self.assertEqual(self.driver.title,"Hello Python")
 
         self.driver.switch_to.window(win1)
         textfieldobj=self.findbyname("uName")
-        textfieldobj.send_keys("mahetha")
+        textfieldobj.send_keys("ram")
         time.sleep(5)
         self.assertEqual(self.driver.title,"test3")
 

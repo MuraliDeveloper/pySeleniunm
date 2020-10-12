@@ -33,11 +33,18 @@ print(elem.is_selected())#only for radio, select boxes
 
 elem.send_keys(user)
 
-#create wait obj on driver and wait until the lement is located
-#<input type="text" name="name" />
+"""
+
+<input type="text" name="name" id="name"/>
+how to wait untill this field is loaded?
+solution:
+create wait obj on driver and wait until the element is located
+"""
 element = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.ID, "name"))
     )
+
+
 #This waits up to 10 seconds before throwing a TimeoutException unless it finds the element to return within 10 seconds.
 element = WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable((By.ID, "name"))
@@ -49,6 +56,7 @@ elem = driver.find_element_by_id("pass")
 elem.send_keys(pwd)
 elem.send_keys(Keys.RETURN)
 driver.close()
+
 """
 title_is
 title_contains
