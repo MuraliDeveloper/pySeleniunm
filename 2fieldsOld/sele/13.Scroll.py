@@ -3,23 +3,23 @@ from selenium import webdriver
 import time
 
 # set webdriver path here it may vary
-browser = webdriver.Chrome(executable_path="C:\Murali\Training\chromedriver_win32\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="C:\Murali\Training\chromedriver_win32\chromedriver.exe")
 # brower = webdriver.Firefox(executable_path ="C:\Murali\chromedriver.exe")
 # brower = webdriver.Ie(executable_path ="C:\Murali\chromedriver.exe")
 
 
 website_URL = "https://www.twitter.com"
-browser.get(website_URL)
+driver.get(website_URL)
 time.sleep(5)
 
 #scroll to pixcel
-browser.execute_script("window.scrollTo(0, 200);")
+driver.execute_script("window.scrollTo(0, 200);")
 time.sleep(5)
 
 #scroll to end page
-browser.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
 time.sleep(3)
-browser.close()
+driver.close()
 
 
 
