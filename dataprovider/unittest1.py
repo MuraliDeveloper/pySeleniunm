@@ -9,9 +9,6 @@ from basics.basetest import BaseTest
 class MyTest(unittest.Testcase):     # Create a class which is a childclass of unittest.testcase
 
 
-
-
-
     def test2(self):
 
         # open google.com

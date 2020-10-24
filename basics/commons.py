@@ -1,7 +1,7 @@
 from selenium import webdriver
 
 driver_url="C:\Murali\Training\Selenium\chromedriver_win32\chromedriver.exe"
-App_URL="http://localhost:8080/testFb/"
+App_URL="http://localhost:8081/myapp/"
 
 
 def getChromeDriver():

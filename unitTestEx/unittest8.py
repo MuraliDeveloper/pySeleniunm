@@ -24,7 +24,11 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
         self.assertEqual("Insert title here", self.driver.title, "invalid title for xpath1.html")
 
     def test1(self):
-    #<a href="https://www.gmail.com">click here</a>
+        """
+
+
+
+        """
 
 
         #link1=self.driver.find_element_by_xpath("/html/body/a[1]")

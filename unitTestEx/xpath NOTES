@@ -1,0 +1,68 @@
+<a href="https://www.gmail.com">click here</a>
+<a href="https://www.fb.com">click here</a>
+
+1.how to get web element using attribute
+        xpath = //a[@href='https://www.google.com']
+                // tagName[@attributename ='attributevalue']
+
+            link1=self.findbyxpath("//a[@href='https://www.gmail.com']")
+            link1.click()
+
+
+            link2=self.findbyxpath("//a[@href='https://www.fb.com']")
+            link2.click()
+
+
+2.<input type="text"/>
+webElement =self.findbyxpath("//input[@type='text']")
+
+
+
+3.
+<label id='error'>Enter values here</label>
+webElement =self.findbyxpath("//label[@id='error']")
+
+
+4.
+  <input type="text" value="RESET"/>
+  <input type="text" value="ADD"/>
+
+WebElement =self.findbyxpath("//input[@value='RESET']")
+webElement =self.findbyxpath("//input[@value='ADD']")
+
+
+5. <input type="text" name="name"/>
+WebElement =self.findbyxpath("//input[@name='name']")
+
+similar match:
+---------------------
+syntax: tag[contains(@attribute, ‘value‘)]  -> serach by tagname + attribute similar match
+
+
+<a href="https://www.gmail.com"> click here for gmail page </a>
+
+WebElement =self.findbyxpath("//a[@href='https://www.gmail.com']")
+WebElement =self.findbyxpath("//a[contains(@href,'gmail')]")
+WebElement =self.findbyxpath("//a[contains(text(),'gmail page')]")  -- partial serach by text
+
+
+GET BUTTONS:
+---------------------------
+<input type="submit" name="submit">
+<input type="button" name="CLEAR">
+<input type="button" name="btnReset">
+
+WebElement =self.findbyxpath("//input[@type='submit' or @name='btnReset']")
+
+
+<td>UserID</td>
+<td>name</td>
+<td>age</td>
+
+
+//td[text()='UserID']
+//td[text()='name']
+//td[text()='age']
+
+
+
