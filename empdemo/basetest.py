@@ -17,30 +17,27 @@ class BaseTest(unittest.TestCase):     # Create a class which is a childclass of
         print("teardown function is called")
         self.driver.close()
 
-    def checkdisplayandenabled(self, *elements):
+    def checkDisplayAndEnabled(self, *elements):
         for element in elements:
-
-
             self.assertTrue(element.is_enabled())
             self.assertTrue(element.is_displayed())
 
     def findbyname(self,name):
-
         elementobj = self.driver.find_element_by_name(name)
-        self.checkdisplayandenabled(elementobj)
+        self.checkDisplayAndEnabled(elementobj)
         return elementobj
     def findbyid(self,id):
         elementobj=self.driver.find_element_by_id(id)
-        self.checkdisplayandenabled(elementobj)
+        self.checkDisplayAndEnabled(elementobj)
         return elementobj
     def findbyxpath(self,xpath):
         elementobj=self.driver.find_element_by_xpath(xpath)
-        self.checkdisplayandenabled( elementobj)
+        self.checkDisplayAndEnabled(elementobj)
         return  elementobj
 
     def findbylink(self, link_text):
         elementobj = self.driver.find_element_by_link_text(link_text)
-        self.checkdisplayandenabled(elementobj)
+        self.checkDisplayAndEnabled(elementobj)
         return elementobj
 
     def login(self,username,password):

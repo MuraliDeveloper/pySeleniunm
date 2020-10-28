@@ -1,0 +1,89 @@
+<html>
+ <body>
+  <form id="loginForm">
+   <input name="username" type="text" />
+   <input name="username" type="username" />
+   <input name="continue" type="submit" value="Login" />
+  </form>
+ </body>
+<html>
+
+
+
+elements = driver.find_elements_by_name('username')
+
+
+<html>
+ <body>
+  <form id="loginForm">
+   <input name="username" type="text" />
+   <input name="password" type="password" />
+   <input name="continue" type="submit" value="Login" />
+  </form>
+ </body>
+<html>
+
+login_form = driver.find_elements_by_xpath("/html/body/form[1]")
+login_form = driver.find_elements_by_xpath("//form[1]")
+
+
+
+
+
+
+
+<html>
+ <body>
+  <h1>Welcome</h1>
+  <p>Site content goes here.</p>
+</body>
+<html>
+
+login_form = driver.find_elements_by_tag_name('h1')
+
+
+
+
+<html>
+ <body>
+  <p class="content">Site content goes here.</p>
+</body>
+<html>
+
+content = driver.find_elements_by_class_name('content')
+
+
+
+
+
+<html>
+ <body>
+  <p class="content">Site content goes here.</p>
+</body>
+<html>
+
+content = driver.find_elements_by_css_selector('p.content')
+
+
+
+
+
+
+
+
+<html>
+ <body>
+  <form id="loginForm">
+   <input name="username" type="text" />
+   <input name="password" type="password" />
+   <input name="continue" type="submit" value="Login" />
+  </form>
+ </body>
+<html>
+
+login_form = driver.find_element_by_id('loginForm')
+
+
+
+
+
