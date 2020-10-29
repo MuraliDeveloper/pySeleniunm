@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ca1a311-27f1-448d-b9ee-3409114f6c3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/empdemo/loginpage1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/empdemo/loginpageDataProviderExcel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unitTestEx/Actions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unitTestEx/Locators" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/commons.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/commons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/empdemo/basetest.py" beforeDir="false" afterPath="$PROJECT_DIR$/empdemo/basetest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/empdemo/loginpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/empdemo/loginpage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitTestEx/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/Locators" beforeDir="false" afterPath="$PROJECT_DIR$/unitTestEx/Locators" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/listCompre" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -51,56 +44,14 @@
       <recent name="C:\Murali\Training\Git\PySelenium\suit" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\listCompre" />
       <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\modules" />
       <recent name="C:\Murali\Training\Git\PySelenium\empdemo" />
       <recent name="C:\Murali\Training\Git\PySelenium\unitTestEx" />
       <recent name="C:\Murali\Training\Git\PySelenium\dataprovider" />
-      <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\filesEx" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Ex4">
-    <configuration name="Ex1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyTrain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/modules" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/modules/Ex1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Ex2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyTrain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/modules" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/modules/Ex2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.MultiInput1">
     <configuration name="Ex4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyTrain" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,6 +65,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/modules/Ex4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MultiInput" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTrain" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/listCompre" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/listCompre/MultiInput.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MultiInput1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTrain" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/listCompre" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/listCompre/MultiInput1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dateTimeex2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyTrain" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/miss" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/listCompre" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/miss/dateTimeex2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/listCompre/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,19 +158,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.dateTimeex2" />
-      <item itemvalue="Python.Ex1" />
-      <item itemvalue="Python.Ex2 (1)" />
       <item itemvalue="Python.TestExtModule" />
       <item itemvalue="Python.Ex4" />
+      <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.MultiInput" />
+      <item itemvalue="Python.MultiInput1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MultiInput1" />
+        <item itemvalue="Python.MultiInput" />
+        <item itemvalue="Python.__init__" />
         <item itemvalue="Python.Ex4" />
         <item itemvalue="Python.TestExtModule" />
-        <item itemvalue="Python.Ex2 (1)" />
-        <item itemvalue="Python.Ex1" />
-        <item itemvalue="Python.dateTimeex2" />
       </list>
     </recent_temporary>
   </component>
@@ -219,22 +212,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601491470089" />
-    <state width="1500" height="269" key="GridCell.Tab.0.bottom" timestamp="1603863545452">
+    <state width="1500" height="269" key="GridCell.Tab.0.bottom" timestamp="1603949951125">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="269" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603863545452" />
-    <state width="1500" height="269" key="GridCell.Tab.0.center" timestamp="1603863545452">
+    <state width="1500" height="269" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603949951125" />
+    <state width="1500" height="269" key="GridCell.Tab.0.center" timestamp="1603949951124">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="269" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603863545452" />
-    <state width="1500" height="269" key="GridCell.Tab.0.left" timestamp="1603863545452">
+    <state width="1500" height="269" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603949951124" />
+    <state width="1500" height="269" key="GridCell.Tab.0.left" timestamp="1603949951124">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="269" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603863545452" />
-    <state width="1500" height="269" key="GridCell.Tab.0.right" timestamp="1603863545452">
+    <state width="1500" height="269" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603949951124" />
+    <state width="1500" height="269" key="GridCell.Tab.0.right" timestamp="1603949951125">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="269" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603863545452" />
+    <state width="1500" height="269" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603949951125" />
     <state width="1500" height="247" key="GridCell.Tab.1.bottom" timestamp="1603862316782">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
