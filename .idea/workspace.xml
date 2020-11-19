@@ -31,16 +31,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/10decotor" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\10decotor" />
+      <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\10decotor\closures" />
       <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1" />
       <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\listCompre" />
       <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\modules" />
-      <recent name="C:\Murali\Training\Git\PySelenium\empdemo" />
-      <recent name="C:\Murali\Training\Git\PySelenium\unitTestEx" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\10decotor\closures" />
@@ -50,8 +50,8 @@
       <recent name="C:\Murali\Training\Git\PySelenium\2fieldsOld" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.background1">
-    <configuration name="Decorator1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Decorator51correct">
+    <configuration name="Decorator30" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyTrain" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,7 +63,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/10decotor/Decorator1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/10decotor/Decorator30.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,7 +72,49 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex2_FunctionAsArgument (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Decorator51" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTrain" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/10decotor" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/10decotor/Decorator51.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Decorator51correct" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTrain" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/10decotor" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/10decotor/Decorator51correct.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ex5_Decor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyTrain" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,7 +126,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/10decotor/closures/Ex2_FunctionAsArgument.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/10decotor/closures/Ex5_Decor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="background1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex5_InputFunctionObjReturnFunObj" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyTrain" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,53 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/10decotor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/10decotor/closures" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/10decotor/background1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="withDecorator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyTrain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/10decotor" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\10decotor\withDecorator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="withoutDecorator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyTrain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/10decotor" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\10decotor\withoutDecorator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/10decotor/closures/Ex5_InputFunctionObjReturnFunObj.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,19 +157,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Decorator1" />
-      <item itemvalue="Python.Ex2_FunctionAsArgument (1)" />
-      <item itemvalue="Python.background1" />
-      <item itemvalue="Python.withoutDecorator" />
-      <item itemvalue="Python.withDecorator" />
+      <item itemvalue="Python.Ex5_InputFunctionObjReturnFunObj" />
+      <item itemvalue="Python.Ex5_Decor" />
+      <item itemvalue="Python.Decorator30" />
+      <item itemvalue="Python.Decorator51" />
+      <item itemvalue="Python.Decorator51correct" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.background1" />
-        <item itemvalue="Python.withoutDecorator" />
-        <item itemvalue="Python.withDecorator" />
-        <item itemvalue="Python.Ex2_FunctionAsArgument (1)" />
-        <item itemvalue="Python.Decorator1" />
+        <item itemvalue="Python.Decorator51correct" />
+        <item itemvalue="Python.Decorator51" />
+        <item itemvalue="Python.Decorator30" />
+        <item itemvalue="Python.Ex5_Decor" />
+        <item itemvalue="Python.Ex5_InputFunctionObjReturnFunObj" />
       </list>
     </recent_temporary>
   </component>
@@ -211,22 +211,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601491470089" />
-    <state width="755" height="317" key="GridCell.Tab.0.bottom" timestamp="1604383176253">
+    <state width="1515" height="283" key="GridCell.Tab.0.bottom" timestamp="1604553491326">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="755" height="317" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604383176253" />
-    <state width="755" height="317" key="GridCell.Tab.0.center" timestamp="1604383176253">
+    <state width="1515" height="283" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604553491326" />
+    <state width="1515" height="283" key="GridCell.Tab.0.center" timestamp="1604553491326">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="755" height="317" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604383176253" />
-    <state width="755" height="317" key="GridCell.Tab.0.left" timestamp="1604383176253">
+    <state width="1515" height="283" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604553491326" />
+    <state width="1515" height="283" key="GridCell.Tab.0.left" timestamp="1604553491326">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="755" height="317" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604383176253" />
-    <state width="755" height="317" key="GridCell.Tab.0.right" timestamp="1604383176253">
+    <state width="1515" height="283" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604553491326" />
+    <state width="1515" height="283" key="GridCell.Tab.0.right" timestamp="1604553491326">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="755" height="317" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604383176253" />
+    <state width="1515" height="283" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604553491326" />
     <state width="1500" height="247" key="GridCell.Tab.1.bottom" timestamp="1603862316782">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
