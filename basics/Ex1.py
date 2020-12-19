@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 """
 1.open browser
-2.navigate to ggogle website 
+2.navigate to google website 
 3.close browser
 
 
