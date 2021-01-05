@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ca1a311-27f1-448d-b9ee-3409114f6c3f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PySelenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PySelenium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Ex1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,39 +33,39 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python8PM/loops" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pyDjango/myProject/login" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Murali\Training\Git\Python8PM\loops" />
-      <recent name="C:\Murali\Training\Git\Python8PM\conditions" />
-      <recent name="C:\Murali\Training\Git\Python8PM\basics" />
+      <recent name="C:\Murali\Training\Git\pyDjango\myProject\login" />
+      <recent name="C:\Murali\Training\Git\pyDjango\myProject\customer" />
+      <recent name="C:\Murali\Training\Git\pyDjango\myProject\account" />
+      <recent name="C:\Murali\Training\Git\pyDjango\myProject\account\templates" />
       <recent name="C:\Murali\Training\Git\pyDjango\myProject\login\templates" />
-      <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\10decotor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Murali\Training\Git\pyDjango\myProject\login" />
+      <recent name="C:\Murali\Training\Git\pyDjango\myProject" />
+      <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\regularExp\check" />
       <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\conditions" />
       <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\basics" />
-      <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\basics\functions" />
-      <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\basics\basic2" />
-      <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\10decotor\closures" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.StringOpeartions">
-    <configuration name="Ex13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python8PM" />
+  <component name="RunManager" selected="Python.SIngleInheri2">
+    <configuration name="CopyPerson" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTrain" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Python8PM/loops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/oopscopyingObj" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Python8PM/loops/Ex13.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/oopscopyingObj/CopyPerson.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,19 +74,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python8PM" />
+    <configuration name="Data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTrain" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Python8PM/loops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/oopsOperatorOverload" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Python8PM/loops/Ex14.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/oopsOperatorOverload/Data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,19 +95,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex15" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python8PM" />
+    <configuration name="PersonObjPrint" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTrain" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Python8PM/loops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/oopsOperatorOverload" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Python8PM/loops/Ex15.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/oopsOperatorOverload/PersonObjPrint.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,19 +116,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex16" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python8PM" />
+    <configuration name="SIngleInheri1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTrain" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Python8PM/loops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/Inherit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Python8PM/loops/Ex16.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/Inherit/SIngleInheri1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,19 +137,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="StringOpeartions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python8PM" />
+    <configuration name="SIngleInheri2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTrain" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Python8PM" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/Inherit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Python8PM/StringOpeartions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/Inherit/SIngleInheri2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,19 +159,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Ex13" />
-      <item itemvalue="Python.Ex14" />
-      <item itemvalue="Python.Ex15" />
-      <item itemvalue="Python.Ex16" />
-      <item itemvalue="Python.StringOpeartions" />
+      <item itemvalue="Python.PersonObjPrint" />
+      <item itemvalue="Python.CopyPerson" />
+      <item itemvalue="Python.Data" />
+      <item itemvalue="Python.SIngleInheri1" />
+      <item itemvalue="Python.SIngleInheri2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.StringOpeartions" />
-        <item itemvalue="Python.Ex16" />
-        <item itemvalue="Python.Ex15" />
-        <item itemvalue="Python.Ex14" />
-        <item itemvalue="Python.Ex13" />
+        <item itemvalue="Python.SIngleInheri2" />
+        <item itemvalue="Python.SIngleInheri1" />
+        <item itemvalue="Python.CopyPerson" />
+        <item itemvalue="Python.Data" />
+        <item itemvalue="Python.PersonObjPrint" />
       </list>
     </recent_temporary>
   </component>
@@ -192,10 +189,6 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="484" y="0" key="#Ex3" timestamp="1600748735923">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="484" y="0" key="#Ex3/0.0.1536.824@0.0.1536.824" timestamp="1600748735923" />
     <state x="484" y="77" key="#Ex3_(1)" timestamp="1607959713944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -204,10 +197,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601223332005" />
-    <state x="538" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604033440909">
+    <state x="538" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609675501700">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="538" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1604033440909" />
+    <state x="538" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1609675501700" />
     <state x="548" y="117" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1601223125802">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -220,58 +213,62 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="441" y="138" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605848676894" />
-    <state width="1515" height="240" key="GridCell.Tab.0.bottom" timestamp="1608306126082">
+    <state width="1500" height="240" key="GridCell.Tab.0.bottom" timestamp="1609835683629">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="240" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608306126082" />
-    <state width="1515" height="240" key="GridCell.Tab.0.center" timestamp="1608306126081">
+    <state width="1500" height="240" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609835683629" />
+    <state width="1500" height="240" key="GridCell.Tab.0.center" timestamp="1609835683629">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="240" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608306126081" />
-    <state width="1515" height="240" key="GridCell.Tab.0.left" timestamp="1608306126081">
+    <state width="1500" height="240" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609835683629" />
+    <state width="1500" height="240" key="GridCell.Tab.0.left" timestamp="1609835683628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="240" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608306126081" />
-    <state width="1515" height="240" key="GridCell.Tab.0.right" timestamp="1608306126082">
+    <state width="1500" height="240" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609835683628" />
+    <state width="1500" height="240" key="GridCell.Tab.0.right" timestamp="1609835683629">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="240" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608306126082" />
-    <state width="1515" height="253" key="GridCell.Tab.1.bottom" timestamp="1608132349017">
+    <state width="1500" height="240" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609835683629" />
+    <state width="1500" height="246" key="GridCell.Tab.1.bottom" timestamp="1609006158329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="253" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608132349017" />
-    <state width="1515" height="253" key="GridCell.Tab.1.center" timestamp="1608132349017">
+    <state width="1500" height="246" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609006158329" />
+    <state width="1500" height="246" key="GridCell.Tab.1.center" timestamp="1609006158329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="253" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1608132349017" />
-    <state width="1515" height="253" key="GridCell.Tab.1.left" timestamp="1608132349017">
+    <state width="1500" height="246" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1609006158329" />
+    <state width="1500" height="246" key="GridCell.Tab.1.left" timestamp="1609006158329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="253" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1608132349017" />
-    <state width="1515" height="253" key="GridCell.Tab.1.right" timestamp="1608132349017">
+    <state width="1500" height="246" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1609006158329" />
+    <state width="1500" height="246" key="GridCell.Tab.1.right" timestamp="1609006158329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="253" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1608132349017" />
-    <state x="36" y="74" key="SettingsEditor" timestamp="1607956850129">
+    <state width="1500" height="246" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1609006158329" />
+    <state x="123" y="79" key="SettingsEditor" timestamp="1608905914228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="36" y="74" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607956850129" />
+    <state x="123" y="79" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1608905914228" />
     <state x="333" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1601223212821">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="333" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1601223212821" />
-    <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1602480276970">
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1609772378627">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1602480276970" />
-    <state x="477" y="11" width="581" height="801" key="find.popup" timestamp="1606904116568">
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1609772378627" />
+    <state x="100" y="113" width="1336" height="616" key="dock-window-2" timestamp="1608882830672">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="11" width="581" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1606904116568" />
-    <state x="431" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1606904123581">
+    <state x="100" y="113" width="1336" height="616" key="dock-window-2/0.0.1536.824@0.0.1536.824" timestamp="1608882830672" />
+    <state x="477" y="11" width="712" height="801" key="find.popup" timestamp="1609220139957">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606904123581" />
+    <state x="477" y="11" width="712" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1609220139957" />
+    <state x="431" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1609168940000">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1609168940000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -346,11 +343,6 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/oopsinstance/InstanceFuntn.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/exception1/TestUserException00.py</url>
           <line>38</line>
           <option name="timeStamp" value="23" />
@@ -369,6 +361,16 @@
           <url>file://$PROJECT_DIR$/../Python8PM/conditions/Ex10.py</url>
           <line>17</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../pyDjango/myProject/myProject/settings.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../PythonProgs-master/PythonBasics1/Inherit/SIngleInheri1.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
