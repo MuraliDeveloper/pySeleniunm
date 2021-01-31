@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../DDS-20200919T135621Z-001/DDS/.idea/DDS.iml" filepath="$PROJECT_DIR$/../DDS-20200919T135621Z-001/DDS/.idea/DDS.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pyDjango/MyApps/.idea/MyApps.iml" filepath="$PROJECT_DIR$/../pyDjango/MyApps/.idea/MyApps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Py9pm/.idea/Py9pm.iml" filepath="$PROJECT_DIR$/../Py9pm/.idea/Py9pm.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PySelenium.iml" filepath="$PROJECT_DIR$/.idea/PySelenium.iml" />
       <module fileurl="file://$PROJECT_DIR$/../PythonProgs-master/.idea/PyTrain.iml" filepath="$PROJECT_DIR$/../PythonProgs-master/.idea/PyTrain.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Python8PM/.idea/Python8PM.iml" filepath="$PROJECT_DIR$/../Python8PM/.idea/Python8PM.iml" />
