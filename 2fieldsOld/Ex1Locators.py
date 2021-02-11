@@ -24,7 +24,6 @@ time.sleep(20)
 
 driver.close()
 
-
 #By Link Text
 driver = webdriver.Firefox()
 driver.get("http://google.com")
@@ -113,7 +112,3 @@ get_div = driver.find_element_by_class_name('round-button')
 element = driver.find_element_by_id("user_name")
 element = driver.find_element_by_name("user")
 element = driver.find_element_by_xpath("//input[@id='user_name']")
-
-
-
-

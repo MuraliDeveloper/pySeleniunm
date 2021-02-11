@@ -18,9 +18,4 @@ class MyTest(BaseTest):     # Create a class which is a childclass of unittest.t
 
         time.sleep(5)
         self.assertEqual("welcome to drag1", self.driver.title)
-    def test2(self):
 
-        # open google.com
-        self.driver.get(commons.app_url + "form1.html")
-        time.sleep(5)
-        self.assertEqual("welcome to form1", self.driver.title,"invalid title for form.html")

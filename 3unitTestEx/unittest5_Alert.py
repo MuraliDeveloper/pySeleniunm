@@ -66,7 +66,3 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
         alertObj.accept()
         time.sleep(5)
 
-
-
-
-

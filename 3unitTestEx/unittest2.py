@@ -19,10 +19,6 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
         self.assertEqual("my form page", self.driver.title, "invalid title for form.html")
 
 
-
-
-
-
     def test6(self):
         submitbuttonobj = self.findbyname("submit")
         textareaobj = self.findbyname("address")
@@ -30,11 +26,7 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
         submitbuttonobj.click()
 
 
-
-
-
     def test1(self):
-        # open google.com
 
         firstnameobj = self.findbyname("uName")
         lastnameobj = self.findbyname("LName")

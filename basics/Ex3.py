@@ -4,8 +4,9 @@ from basics import commons
 
 """
 1.open browser
-2.navigate to ggogle website 
-3.close browser
+2.navigate to google website
+3.take screenshot
+4.close browser
 
 
 step1: get driver object using the driver software
@@ -14,7 +15,9 @@ get() method
 step3: driver.close()
 
 
-screen shot
+how to take screenshot ?
+driver.save_screenshot("test.png")
+
 
 """
 # get driver
@@ -26,6 +29,6 @@ time.sleep(5)
 
 print("******************get screenshot ******************************")
 driver.save_screenshot("test.png")
-
+time.sleep(5)
 #close driver
 driver.close()

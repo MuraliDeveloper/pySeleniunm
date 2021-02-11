@@ -3,9 +3,13 @@ import time
 from basics import commons
 """
 1.open browser
-2.navigate to ggogle website 
-3.close browser
+2.navigate to google website 
+3.get the title of page
+4.close browser
 
+
+How to access the page title?
+print(driver.title)
 
 
 step1: get driver object using the driver software

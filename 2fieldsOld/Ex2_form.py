@@ -4,8 +4,6 @@ from selenium.webdriver.support.select import Select
 
 
 # get driver
-
-
 def validateLabel(idriver, lables):
     for l,v in lables.items():
         element=idriver.find_element_by_id(l)
@@ -52,8 +50,7 @@ try:
     ch1.click()
     ch1  =driver.find_element_by_name("voter")
     ch1.click()
-    
-    
+
     
     #test on dropdown
     cityDropdown = Select(driver.find_element_by_name("cities"))

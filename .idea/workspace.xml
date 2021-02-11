@@ -2,9 +2,116 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ca1a311-27f1-448d-b9ee-3409114f6c3f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PySelenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PySelenium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3unitTestEx/Ex1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3unitTestEx/Ex2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3unitTestEx/Ex3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3unitTestEx/Ex4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3unitTestEx/Ex5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3unitTestEx/Ex6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestsuit/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/10FindElements.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/10FindElements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/11.DragAndDrop.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/11.DragAndDrop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/13.Scroll.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/13.Scroll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/14.MouseHover.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/14.MouseHover.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/15.Keys1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/15.Keys1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/15.Keys2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/15.Keys2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/16Frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/16Frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/17Table.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/17Table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/4ConditionalCommands.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/4ConditionalCommands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/5.WaitCommands.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/5.WaitCommands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/6.WaitCommands.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/6.WaitCommands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/7.InputText.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/7.InputText.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/Ex10Window.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/Ex10Window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/Ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/Ex2_form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/Ex22.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/Ex22.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/Ex3GetAllLinks.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/Ex3GetAllLinks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/Ex4.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/Ex4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/Ex5Locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/Ex1Locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/Ex6Dropdown.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/Ex6Dropdown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/Ex7Alert.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/Ex7Alert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/Ex8Alert2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/Ex8Alert2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/Ex9AlertWithMsg.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/Ex9AlertWithMsg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/WindowAlert.py" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/WindowAlert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/4report/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2fieldsOld/sele/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/2fieldsOld/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonSep21/.idea/PythonSep21.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonSep21/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonSep21/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Ex1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Ex2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Ex3.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Ex3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Ex4.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Ex4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Ex5.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Ex5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataprovider/ExcelDataProvdierGoogleSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/4dataprovider/ExcelDataProvdierGoogleSearch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataprovider/ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/4dataprovider/ex2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataprovider/example1.py" beforeDir="false" afterPath="$PROJECT_DIR$/4dataprovider/example1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataprovider/unittest1.py" beforeDir="false" afterPath="$PROJECT_DIR$/4dataprovider/unittest1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empdemo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/5empdemo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empdemo/addnewdept.py" beforeDir="false" afterPath="$PROJECT_DIR$/5empdemo/addnewdept.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empdemo/advancesearchemployee.py" beforeDir="false" afterPath="$PROJECT_DIR$/5empdemo/advancesearchemployee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empdemo/basetest.py" beforeDir="false" afterPath="$PROJECT_DIR$/5empdemo/basetest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empdemo/changepassword.py" beforeDir="false" afterPath="$PROJECT_DIR$/5empdemo/changepassword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empdemo/commons.py" beforeDir="false" afterPath="$PROJECT_DIR$/5empdemo/commons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empdemo/createnewemp.py" beforeDir="false" afterPath="$PROJECT_DIR$/5empdemo/createnewemp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empdemo/loginpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/5empdemo/loginpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empdemo/loginpage1.py" beforeDir="false" afterPath="$PROJECT_DIR$/5empdemo/loginpage1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empdemo/loginpageDataProviderExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/5empdemo/loginpageDataProviderExcel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empdemo/mysubordinates.py" beforeDir="false" afterPath="$PROJECT_DIR$/5empdemo/mysubordinates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empdemo/searchdeptname.py" beforeDir="false" afterPath="$PROJECT_DIR$/5empdemo/searchdeptname.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empdemo/searchemp.py" beforeDir="false" afterPath="$PROJECT_DIR$/5empdemo/searchemp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empdemo/showalldept.py" beforeDir="false" afterPath="$PROJECT_DIR$/5empdemo/showalldept.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empdemo/showallemp.py" beforeDir="false" afterPath="$PROJECT_DIR$/5empdemo/showallemp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empdemo/updateprofile.py" beforeDir="false" afterPath="$PROJECT_DIR$/5empdemo/updateprofile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/5pom/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom/addnewemppage.py" beforeDir="false" afterPath="$PROJECT_DIR$/5pom/addnewemppage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom/changepasswordpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/5pom/changepasswordpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom/commonpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/5pom/commonpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom/commons.py" beforeDir="false" afterPath="$PROJECT_DIR$/5pom/commons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom/dataproviderlogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/5pom/dataproviderlogin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom/lifecycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/5pom/lifecycle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom/login.csv" beforeDir="false" afterPath="$PROJECT_DIR$/5pom/login.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom/loginpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/5pom/loginpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom/loginpagedataprovider.py" beforeDir="false" afterPath="$PROJECT_DIR$/5pom/loginpagedataprovider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom/testaddnewemp.py" beforeDir="false" afterPath="$PROJECT_DIR$/5pom/testaddnewemp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom/testchangepassword.py" beforeDir="false" afterPath="$PROJECT_DIR$/5pom/testchangepassword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom/testlogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/5pom/testlogin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom/writedatatocsv.py" beforeDir="false" afterPath="$PROJECT_DIR$/5pom/writedatatocsv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/4report/Ex1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/TestResults___main__.MyTest_2020-08-05_17-17-00.html" beforeDir="false" afterPath="$PROJECT_DIR$/4report/TestResults___main__.MyTest_2020-08-05_17-17-00.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/inst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/Actions" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/Actions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/Ex1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/Ex2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/Ex3.py" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/UnitTest1_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/Ex4.py" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/UnitTest1_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/Ex5.py" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/UnitTest1_5_form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/Ex6.py" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/UnitTest1_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/Ex_formHtml.py" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/UnitTest1_5form_html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/Locators" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/Locators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/basetest.py" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/basetest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/file.csv" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/file.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/lifecycle.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/lifecycle.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/skip.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/skip.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/unittest2.py" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/unittest2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/unittest3.py" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/unittest3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/unittest5.py" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/unittest5_Alert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/unittest6_windows.py" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/unittest6_windows.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/unittest7.py" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/unittest7_actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/unittest8.py" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/unittest8_xpth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestEx/xpath NOTES" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestEx/xpath NOTES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestsuit/Ex3SUITE.py" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestsuit/Ex3SUITE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestsuit/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestsuit/ex11.py" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestsuit/ex11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestsuit/ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestsuit/ex2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestsuit/ex3.py" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestsuit/ex3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestsuit/mysuit.py" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestsuit/mysuit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitTestsuit/suite.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/3unitTestsuit/suite.JPG" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,27 +142,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Py9pm/hasa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/3unitTestEx" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Murali\Training\Git\Py9pm\hasa" />
-      <recent name="C:\Murali\Training\Git\Py9pm\oopsInstanceFunction" />
-      <recent name="C:\Murali\Training\Git\Py9pm\oops" />
-      <recent name="C:\Murali\Training\Git\Py9pm\functions" />
-      <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\basics\loops" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Murali\Training\Git\PySelenium\2fieldsOld" />
       <recent name="C:\Murali\Training\Git\pyDjango\myProject\login" />
       <recent name="C:\Murali\Training\Git\pyDjango\myProject" />
       <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\regularExp\check" />
       <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\conditions" />
-      <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\basics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Murali\Training\Git\PySelenium\3unitTestEx" />
+      <recent name="C:\Murali\Training\Git\Py9pm\collections" />
+      <recent name="C:\Murali\Training\Git\Py9pm\inherit" />
+      <recent name="C:\Murali\Training\Git\Py9pm\hasa" />
+      <recent name="C:\Murali\Training\Git\Py9pm\oopsInstanceFunction" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Ex2 (1)">
-    <configuration name="Ex1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for UnitTest1.MyTest">
+    <configuration name="ListEx1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Py9pm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,11 +170,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Py9pm/operatorOverload" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Py9pm/collections" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Py9pm/operatorOverload/Ex1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Py9pm/collections/ListEx1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +183,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex1 (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ListEx2WithInput" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Py9pm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +191,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Py9pm/hasa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Py9pm/collections" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Py9pm/hasa/Ex1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Py9pm/collections/ListEx2WithInput.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +204,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SetEx" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Py9pm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,11 +212,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Py9pm/encap&amp;abstr" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Py9pm/collections" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Py9pm/encap&amp;abstr/Ex1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Py9pm/collections/SetEx.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +225,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="TupleEx1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Py9pm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,11 +233,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Py9pm/hasa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Py9pm/collections" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Py9pm/hasa/Ex2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Py9pm/collections/TupleEx1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,41 +246,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Py9pm" />
+    <configuration name="Unittests for UnitTest1.MyTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PySelenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Py9pm/operatorOverload" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3unitTestEx" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Py9pm/operatorOverload/Ex2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;UnitTest1.MyTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Ex1" />
-      <item itemvalue="Python.Ex1 (2)" />
-      <item itemvalue="Python.Ex2" />
-      <item itemvalue="Python.Ex1 (3)" />
-      <item itemvalue="Python.Ex2 (1)" />
+      <item itemvalue="Python.ListEx1" />
+      <item itemvalue="Python.ListEx2WithInput" />
+      <item itemvalue="Python.SetEx" />
+      <item itemvalue="Python.TupleEx1" />
+      <item itemvalue="Python tests.Unittests for UnitTest1.MyTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Ex2 (1)" />
-        <item itemvalue="Python.Ex1 (3)" />
-        <item itemvalue="Python.Ex2" />
-        <item itemvalue="Python.Ex1 (2)" />
-        <item itemvalue="Python.Ex1" />
+        <item itemvalue="Python tests.Unittests for UnitTest1.MyTest" />
+        <item itemvalue="Python.SetEx" />
+        <item itemvalue="Python.TupleEx1" />
+        <item itemvalue="Python.ListEx2WithInput" />
+        <item itemvalue="Python.ListEx1" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +295,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="484" y="77" key="#Ex3_(1)/0.0.1536.824@0.0.1536.824" timestamp="1607959713944" />
+    <state x="484" y="102" key="#Unittests_for_UnitTest1.MyTest" timestamp="1613057758357">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="484" y="102" key="#Unittests_for_UnitTest1.MyTest/0.0.1536.824@0.0.1536.824" timestamp="1613057758357" />
     <state x="538" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611244473884">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -207,22 +311,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="441" y="138" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605848676894" />
-    <state width="1515" height="249" key="GridCell.Tab.0.bottom" timestamp="1612022897962">
+    <state width="1515" height="221" key="GridCell.Tab.0.bottom" timestamp="1613057761897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="249" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1612022897962" />
-    <state width="1515" height="249" key="GridCell.Tab.0.center" timestamp="1612022897962">
+    <state width="1515" height="221" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613057761897" />
+    <state width="1515" height="221" key="GridCell.Tab.0.center" timestamp="1613057761897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="249" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1612022897962" />
-    <state width="1515" height="249" key="GridCell.Tab.0.left" timestamp="1612022897961">
+    <state width="1515" height="221" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1613057761897" />
+    <state width="1515" height="221" key="GridCell.Tab.0.left" timestamp="1613057761897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="249" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1612022897961" />
-    <state width="1515" height="249" key="GridCell.Tab.0.right" timestamp="1612022897962">
+    <state width="1515" height="221" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1613057761897" />
+    <state width="1515" height="221" key="GridCell.Tab.0.right" timestamp="1613057761897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="249" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1612022897962" />
+    <state width="1515" height="221" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613057761897" />
     <state width="1515" height="353" key="GridCell.Tab.1.bottom" timestamp="1611848858356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -239,10 +343,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="353" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1611848858356" />
-    <state x="123" y="79" key="SettingsEditor" timestamp="1608905914228">
+    <state x="123" y="79" key="SettingsEditor" timestamp="1612885794521">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="123" y="79" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1608905914228" />
+    <state x="123" y="79" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1612885794521" />
     <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1612021314869">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -266,11 +370,6 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/basics/Ex4.py</url>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unitTestEx/Ex2.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/../pythonNew/conditions/Ex6Validate.py</url>
@@ -343,7 +442,7 @@
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unitTestEx/Ex5.py</url>
+          <url>file://$PROJECT_DIR$/3unitTestEx/UnitTest1_5_form.py</url>
           <line>2</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>

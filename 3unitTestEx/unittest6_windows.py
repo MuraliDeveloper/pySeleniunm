@@ -18,6 +18,7 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
         self.driver.get(commons.app_url + "window1.html")
         time.sleep(5)
         self.assertEqual("test3", self.driver.title, "invalid title for form.html")
+
     def test1(self):
         textobj=self.findbyid("gLink1")
         textobj.click()

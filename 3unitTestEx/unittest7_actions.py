@@ -18,6 +18,7 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
         self.driver.get(commons.app_url + "data.html")
         time.sleep(5)
         self.assertEqual("data page", self.driver.title, "invalid title for alert.html")
+
     def test1(self):
         #mouse operations
         get_div = self.driver.find_element_by_class_name('round-button')
