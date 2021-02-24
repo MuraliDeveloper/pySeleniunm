@@ -5,34 +5,40 @@
         xpath = //a[@href='https://www.google.com']
                 // tagName[@attributename ='attributevalue']
 
-            link1=self.findbyxpath("//a[@href='https://www.gmail.com']")
+            link1=driver.find_element_by_xpath("//a[@href='https://www.gmail.com']")
             link1.click()
 
 
-            link2=self.findbyxpath("//a[@href='https://www.fb.com']")
+            link2=driver.find_element_by_xpath("//a[@href='https://www.fb.com']")
             link2.click()
 
 
 2.<input type="text"/>
-webElement =self.findbyxpath("//input[@type='text']")
+webElement =driver.find_element_by_xpath("//input[@type='text']")
 
 
 
 3.
 <label id='error'>Enter values here</label>
-webElement =self.findbyxpath("//label[@id='error']")
+webElement =driver.find_element_by_xpath("//label[@id='error']")
 
 
 4.
   <input type="text" value="RESET"/>
   <input type="text" value="ADD"/>
 
-WebElement =self.findbyxpath("//input[@value='RESET']")
-webElement =self.findbyxpath("//input[@value='ADD']")
+WebElement =driver.find_element_by_xpath("//input[@value='RESET']")
+webElement =driver.find_element_by_xpath("//input[@value='ADD']")
 
 
-5. <input type="text" name="name"/>
-WebElement =self.findbyxpath("//input[@name='name']")
+5. 
+<input type="text" name="username"  id ="myName"/>
+ we1 = self.driver.find_element_by_name("username")
+ we2 = self.driver.find_element_by_id("myName")
+ we3 = self.driver.find_element_by_xpath("//input[@name='username']")
+ we4 = self.driver.find_element_by_xpath("//input[@id='myName']")
+ we5 = self.driver.find_element_by_tag("input")
+
 
 similar match:
 ---------------------
@@ -41,9 +47,9 @@ syntax: tag[contains(@attribute, ‘value‘)]  -> serach by tagname + attribute
 
 <a href="https://www.gmail.com"> click here for gmail page </a>
 
-WebElement =self.findbyxpath("//a[@href='https://www.gmail.com']")
-WebElement =self.findbyxpath("//a[contains(@href,'gmail')]")
-WebElement =self.findbyxpath("//a[contains(text(),'gmail page')]")  -- partial serach by text
+WebElement =driver.find_element_by_xpath("//a[@href='https://www.gmail.com']")
+WebElement =driver.find_element_by_xpath("//a[contains(@href,'gmail')]")
+WebElement =driver.find_element_by_xpath("//a[contains(text(),'gmail page')]")  -- partial serach by text
 
 
 GET BUTTONS:

@@ -91,9 +91,11 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
         voterchechboxobj = self.driver.find_element_by_name("proof2")
         panchechboxobj = self.driver.find_element_by_name("proof3")
         self.checkdisplayandenabled(passportchechboxobj,voterchechboxobj,panchechboxobj)
+
         self.assertFalse(passportchechboxobj.is_selected())
         self.assertFalse(voterchechboxobj.is_selected())
         self.assertTrue(panchechboxobj.is_selected())
+
         self.assertEqual(passportchechboxobj.get_attribute("type"), "checkbox")
         self.assertEqual(voterchechboxobj.get_attribute("type"), "checkbox")
         self.assertEqual(panchechboxobj.get_attribute("type"), "checkbox")
@@ -115,7 +117,7 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
 
     def test6(self):
         textareaobj = self.driver.find_element_by_name("address")
-        textareaobj.send_keys("19-12,bairagapatteda,Tirupathi,AP")
+        textareaobj.send_keys("19-12,marathahalli,Bangalore,KA")
 
         submitbuttonobj = self.driver.find_element_by_name("submit")
         self.checkdisplayandenabled(submitbuttonobj, textareaobj)
