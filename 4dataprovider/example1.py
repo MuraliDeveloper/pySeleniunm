@@ -16,8 +16,8 @@ impact:
 ----------
 the test case will run based on the no of data you provide
    
-changes:
------------
+changes in test class:
+---------------------------
 
 1.write a lambda method that provides the data
     data = lambda: (
@@ -26,6 +26,7 @@ changes:
         (3000),
         (4000)
     )
+
 2.How to pass data to the test case        
 
 @data_provider(data)

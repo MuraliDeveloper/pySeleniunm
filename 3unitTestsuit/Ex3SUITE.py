@@ -8,6 +8,12 @@ mysuit = unittest.TestSuite([ts1])
 
 unittest.TextTestRunner().run(mysuit)
 
+
+
+
+
+
+
 ts1 = unittest.TestLoader().loadTestsFromTestCase(MyTest1)
 ts2 = unittest.TestLoader().loadTestsFromTestCase(MyTest2)
 
