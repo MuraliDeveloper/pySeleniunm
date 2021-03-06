@@ -12,6 +12,5 @@ class MyTest(unittest.TestCase):
         print("test2-register")
 
 
-
 if __name__ == "__main__":
     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='C:/report'))

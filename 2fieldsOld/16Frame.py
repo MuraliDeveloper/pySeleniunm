@@ -125,6 +125,4 @@ driver.switch_to.frame("frame3")
 #perform all actvities on this frame
 
 
-
-
 driver.close 

@@ -1,36 +1,36 @@
 import unittest
-import commons
+
 
 from selenium import webdriver
 import time
 
 from selenium.webdriver.support.select import Select
 
+from basics import commons
 from basics.basetest import BaseTest
+
 
 
 class MyTest(BaseTest):  # Create a class which is a childclass of unittest.testcase
 
     def setUp(self):
+        # complete login
         BaseTest.setUp(self)
         self.driver.get(commons.app_url + "login.html")
         time.sleep(5)
         self.assertEqual("Employee Application", self.driver.title, "invalid title for login.html")
-
-    def testwithcorrectdata(self):
-
-        self.findbyname("loginName").send_keys("admin")
-        self.findbyname("password").send_keys("admin")
-        self.findbyxpath("//input[@value='Login']").click()
-        time.sleep(5)
-
+        self.login("admin", "admin")
+        self.checkHeaderlinks()
         self.findbyid("changePwd").click()
         time.sleep(5)
+
+    def testwithcorrectdata(self):
         self.findbyname("currPass").send_keys("admin")
-        self.findbyname("newPass").send_keys("mahetha")
-        self.findbyname("confirmPass").send_keys("mahetha")
+        self.findbyname("newPass").send_keys("admin123")
+        self.findbyname("confirmPass").send_keys("admin123")
         self.findbyname("Change Password").click()
         time.sleep(5)
+
 
     def testwithdifferentnewandconfirmpasswords(self):
         self.findbyname("loginName").send_keys("admin")

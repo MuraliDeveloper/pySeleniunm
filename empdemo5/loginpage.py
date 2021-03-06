@@ -7,8 +7,8 @@ import time
 
 from selenium.webdriver.support.select import Select
 
-from empdemo import commons
-from empdemo.basetest import BaseTest
+from empdemo5 import commons
+from empdemo5.basetest import BaseTest
 from selenium.webdriver.common.action_chains import ActionChains
 
 
@@ -16,15 +16,35 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
 
     def setUp(self):
         BaseTest.setUp(self)
-        self.driver.get(commons.app_url + "login.html")
+        self.driver.get(commons.app_url)
         time.sleep(5)
+        self.assertEqual("Welcome to Employee Application", self.driver.title, "invalid title for login.html")
+
+    # 1.test with valid username and password
+    def testLogintoAppbyvalidCreds(self):
+        # enter login name
+        self.login("admin", "admin")
+        time.sleep(3)
+        self.assertEqual("Employee Profile", self.driver.title, "invalid title for home page")
+        self.checkHeaderlinks()
+        time.sleep(5)
+
+    # 2.test with valid username and invalid password
+    def testLogintoAppbyInvalidCreds(self):
+        self.login("admin", "admin1")
+        time.sleep(3)
         self.assertEqual("Employee Application", self.driver.title, "invalid title for login.html")
 
-    def testLogintoAppbyvaliduser(self):
-        self.login("admin","mahetha")
-        self.assertEqual("Employee Profile",self.driver.title, "invalid title for login.html")
-        self.checklinks()
+        errorObj = self.findbyxpath("//font[@color='Red']")
+        self.assertTrue(errorObj.is_enabled())
+        self.assertTrue(errorObj.is_displayed())
+        self.assertEqual("Invalid Login.", errorObj.text, "invalid error msg")
+
         time.sleep(5)
+
+
+    #below methods are not tested
+
     def testLoginWithEmptyUserName(self): #negative test case
         self.findbyname("loginName")
         self.findbyname("password").send_keys("admin")
@@ -69,6 +89,7 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
 
     def testLoginAdmin(self):
         self.findbyname("loginName").send_keys("admin")
+
         self.findbyname("password").send_keys("admin")
         self.findbyxpath("//input[@value='Login']").click()
         self.assertEqual("Employee Profile", self.driver.title, "invalid title for login.html")  # validate title
@@ -91,10 +112,6 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
         self.driver.find_element_by_link_text("Logout")
         time.sleep(5)
 
-    def __sendLoginData(self,userName,password):
-        self.findbyname("loginName").send_keys(userName)
-        self.findbyname("password").send_keys(password)
-        self.findbyxpath("//input[@value='Login']").click()
 
 
 

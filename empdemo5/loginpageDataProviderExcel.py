@@ -7,9 +7,10 @@ import time
 
 from selenium.webdriver.support.select import Select
 
-from empdemo import commons
-from empdemo.basetest import BaseTest
 from selenium.webdriver.common.action_chains import ActionChains
+
+from basics import commons
+from empdemo5.basetest import BaseTest
 
 
 class MyTest(BaseTest):  # Create a class which is a childclass of unittest.testcase
@@ -25,6 +26,7 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
         self.assertEqual("Employee Profile",self.driver.title, "invalid title for login.html")
         self.checklinks()
         time.sleep(5)
+
     def testLoginWithEmptyUserName(self): #negative test case
         self.findbyname("loginName")
         self.findbyname("password").send_keys("admin")
@@ -69,7 +71,6 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
 
     def testLoginAdmin(self):
         self.findbyname("loginName").send_keys("admin")
-
         self.findbyname("password").send_keys("admin")
         self.findbyxpath("//input[@value='Login']").click()
         self.assertEqual("Employee Profile", self.driver.title, "invalid title for login.html")  # validate title
@@ -92,6 +93,10 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
         self.driver.find_element_by_link_text("Logout")
         time.sleep(5)
 
+    def __sendLoginData(self,userName,password):
+        self.findbyname("loginName").send_keys(userName)
+        self.findbyname("password").send_keys(password)
+        self.findbyxpath("//input[@value='Login']").click()
 
 
 

@@ -1,7 +1,6 @@
 #basetext
 import unittest
 from selenium.webdriver.common.action_chains import ActionChains
-import commons
 from selenium import webdriver
 import time
 
@@ -9,9 +8,6 @@ class commonpage:
     def __init__(self, driver):
         self.driver = driver
         print("constructor is called")
-
-
-
 
 
     def checkdisplayandenabled(self, *elements):
@@ -50,11 +46,6 @@ class commonpage:
         action = ActionChains(self.driver)
         action.move_to_element(DepartmentLblobj).perform()
         self.linkvalidation("deptCreate","searchDept","getDepts")
-
-
-
-
-
 
     def linkvalidation(self,*hrefs):
         for href in hrefs:

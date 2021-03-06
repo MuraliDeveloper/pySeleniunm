@@ -1,19 +1,14 @@
 import time
-import commons
 
-from empdemo.basetest import BaseTest
+from empdemo5.basetest import BaseTest
 from selenium.webdriver.common.action_chains import ActionChains
-
-
-from pom.loginpage import loginpage
-
+from pom6.loginpage import loginpage
 
 class MyTest(BaseTest):  # Create a class which is a childclass of unittest.testcase
 
     def setUp(self):
         BaseTest.setUp(self)
         self.loginpageobj=loginpage(self.driver)
-
         time.sleep(5)
 
 

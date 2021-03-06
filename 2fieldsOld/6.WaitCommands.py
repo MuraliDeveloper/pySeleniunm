@@ -36,9 +36,19 @@ elem.send_keys(user)
 """
 
 <input type="text" name="name" id="name"/>
-how to wait untill this field is loaded?
+how to wait until this field is loaded?
 solution:
 create wait obj on driver and wait until the element is located
+
+
+element = driver.find_by_Id("name")  # use this if element loads on time
+
+element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "name")) )
+# use this if element doesnt loads on time during the page load
+    
+
+
+
 """
 element = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.ID, "name"))

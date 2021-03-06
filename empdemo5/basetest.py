@@ -1,8 +1,7 @@
-#basetext
+
 import unittest
 from selenium.webdriver.common.action_chains import ActionChains
-import commons
-from selenium import webdriver
+from basics import commons
 import time
 
 class BaseTest(unittest.TestCase):     # Create a class which is a childclass of unittest.testcase
@@ -10,7 +9,7 @@ class BaseTest(unittest.TestCase):     # Create a class which is a childclass of
 
     def setUp(self):
         print("setup function called")
-        self.driver = webdriver.Chrome(executable_path=commons.driver_url)
+        self.driver = commons.getChromeDriver()
         time.sleep(5)
 
     def tearDown(self):
@@ -40,13 +39,27 @@ class BaseTest(unittest.TestCase):     # Create a class which is a childclass of
         self.checkDisplayAndEnabled(elementobj)
         return elementobj
 
-    def login(self,username,password):
+    def login(self, userName, password):
+            # enter login name
+            elementobj = self.driver.find_element_by_name("loginName")
+            self.assertTrue(elementobj.is_enabled())
+            self.assertTrue(elementobj.is_displayed())
+            elementobj.send_keys(userName)
 
-        self.findbyname("loginName").send_keys(username)
-        self.findbyname("password").send_keys(password)
-        self.findbyxpath("//input[@value='Login']").click()
+            # enter password
+            passwordObj = self.driver.find_element_by_name("password")
+            self.assertTrue(passwordObj.is_enabled())
+            self.assertTrue(passwordObj.is_displayed())
+            passwordObj.send_keys(password)
+            time.sleep(3)
 
-    def checklinks(self):
+            # click on login button
+            loginObj = self.driver.find_element_by_xpath("//input[@value='Login']")
+            self.assertTrue(loginObj.is_enabled())
+            self.assertTrue(loginObj.is_displayed())
+            loginObj.click()
+
+    def checkHeaderlinks(self):
         self.linkvalidation("logout","empProfile","mySubordinates",)
 
         empobj = self.findbyid("EmployeeLbl")
