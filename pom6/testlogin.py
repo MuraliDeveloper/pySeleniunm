@@ -14,9 +14,8 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
 
     def testlogintoappbyvaliduser(self):
         self.loginpageobj.login("admin","mahetha")
-
-       
         time.sleep(5)
+
     def testloginwithemptyuername(self): #negative test case
         self.loginpageobj.login("", "mahetha")
         alertObj = self.driver.switch_to.alert  # to get the alert obj

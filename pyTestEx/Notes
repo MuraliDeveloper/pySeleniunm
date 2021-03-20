@@ -1,0 +1,135 @@
+pip install pytest
+pip install pytest-html-reporter
+pip install pytest-html
+optional:
+
+pip install pytest-cov
+pip install pytest-xdist
+pip install pytest-bdd
+
+
+
+Some of the major features of Pytest:
+---------------------------------------------------
+Automatic discovery of test modules and functions
+Effective CLI for better control, what you want to run or skip
+Large third party plugins ecosystem
+Fixtures — different types, different scopes
+Works with traditional unit test framework
+
+
+pytest by default expects to find tests in python modules whose names begin with test_ or end with _test.py .
+Also by default it expects test function names to start with test_ prefix
+
+
+test_login.py - valid
+login_test.py - valid
+testlogin.py -invalid
+logintest.py -invalid
+
+
+def test_file1_method1(): - valid
+def testfile1_method1(): - valid
+def file1_method1(): - invalid
+
+
+asserts:
+---------------------------
+assert "hello" == "Hai" is an assertion failure.
+assert 4==4 is a successful assertion
+assert True is a successful assertion
+assert False is an assertion failure.
+
+
+
+
+How to run:
+----------------------------------------------------------------------------------------------------------
+python -m pytest Ex1.py OR
+pytest test_Ex5.py
+
+python -m pytest Ex1.py --html-report=./report
+python -m pytest Ex1.py --html-report=./report/report.html
+
+# Find and run all pytests from the current directory
+python -m pytest
+
+# Run pytests under a given path
+python -m pytest
+
+# Run pytests in a specific module
+python -m pytest tests/test_calc_func.py
+
+# Generate JUnit-style XML test reports
+python -m pytest --junitxml=[path-to-file]
+
+# Get command help
+python -m pytest -h
+
+Option 1) Run tests by substring matching
+
+Here to run all the tests having method1 in its name we have to run
+
+py.test -k method1 -v
+-k <expression> is used to represent the substring to match
+-v increases the verbosity
+
+Results XML
+-------------------------------------------------------------------------------------------------
+We can create test results in XML format which we can feed to Continuous Integration servers for further processing and so.
+ This can be done by
+--------------------------------------------------------
+python -m pytest Ex1.py -v --junitxml="result.xml"
+
+
+Results html reports:
+------------------------------------------------------------------------------------------------------------------
+need : pip install pytest-html-reporter
+pytest tests/ --html-report=./report
+$ pytest tests/ --html-report=./report/report.html
+
+run parallel:
+---------------------
+need : pip install pytest-xdist
+python -m pytest -n 4
+
+code coverage:
+-------------------------
+Code Coverage
+To run code coverage with the pytest-cov plugin module, use the following command.
+The report types are optional, but all four types are show below.
+Specific paths for each report may be appended using “:”.
+
+
+# Run tests with code coverage
+python -m pytest [test-path] [other-options] \
+      --cov= \
+      --cov-report=annotate \
+      --cov-report=html \
+      --cov-report=term \
+      --cov-report=xml
+
+ ex:
+ Code coverage output on the terminal (“term” cov-report) looks like this:
+
+
+python -m pytest --cov=com --cov-report=term
+============================= test session starts ==============================
+platform darwin -- Python 3.6.5, pytest-3.0.6, py-1.4.32, pluggy-0.4.0
+rootdir: /Users/andylpk247/Programming/automation-panda/python-testing-101/example-py-pytest, inifile: pytest.ini
+plugins: cov-2.4.0
+collected 25 items
+
+tests/test_calc_class.py .............
+tests/test_calc_func.py ............
+
+---------- coverage: platform darwin, python 3.6.5-final-0 -----------
+Name                                        Stmts   Miss  Cover
+---------------------------------------------------------------
+com/__init__.py                                 0      0   100%
+com/automationpanda/__init__.py                 0      0   100%
+com/automationpanda/example/__init__.py         0      0   100%
+com/automationpanda/example/calc_class.py      21      0   100%
+com/automationpanda/example/calc_func.py       12      0   100%
+---------------------------------------------------------------
+TOTAL                                          33      0   100%

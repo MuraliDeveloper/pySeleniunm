@@ -1,0 +1,23 @@
+
+class Wallet:
+    balance=None
+    initial_amount=None
+
+def test_default_initial_amount():
+   wallet = Wallet()
+   assert wallet.balance == 0
+   wallet.close()
+def test_setting_initial_amount():
+   wallet = Wallet(initial_amount=100)
+   assert wallet.balance == 100
+   wallet.close()
+def test_wallet_add_cash():
+   wallet = Wallet(initial_amount=10)
+   wallet.add_cash(amount=90)
+   assert wallet.balance == 100
+   wallet.close()
+def test_wallet_spend_cash():
+   wallet = Wallet(initial_amount=20)
+   wallet.spend_cash(amount=10)
+   assert wallet.balance == 10
+   wallet.close()

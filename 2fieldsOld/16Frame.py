@@ -1,8 +1,4 @@
-from selenium import webdriver
 
-driver = webdriver.Chrome(executable_path ="C:\Murali\Mythri Progs\selenium\chromedriver_win32\chromedriver.exe")
-driver.maximize_window()
-driver.get("")
 
 """
 <!DOCTYPE html> <html> <frameset rows="*,*,*,*"> <frame src="frame_1.html"> <frame src="frame_2.html"> <frame src="frame_3.html"> <frame src="frame_4.html"> </frameset> </html>
@@ -108,21 +104,57 @@ frames.html:
 <iframe name="frame4" src=frame_4.html></iframe>
 
 
-"""
-#switch to frame by id name or id or index
-driver.switch_to.frame("frame1")# id or index can be passed
+ 
+ How to switch to a frame?
+ 	   1.driver.switch_to.frame(<num>);
+      ex:
+        driver.switch_to.frame(1);
+       
+     2.driver.switch_to.frame("<id>");
+     ex:
+	   driver.switch_to.frame("fr1");
 
-#perform all actvities on this frame
+How to switch to a parent frame?	
+       driver.switch_to.default_content()  
+	  
+	 driver.switchTo().parentFrame();
+ 
+"""
+
+from selenium import webdriver
+
+from basics import commons
+
+import time
+driver = commons.getChromeDriver()
+driver.maximize_window()
+driver.get("")
+
+
+driver.switch_to.frame("fr1")
+driver.find_element_by_name("data1").send_keys("kumar")
+time.sleep(3)
 
 driver.switch_to.default_content()#switch to main page
-driver.switch_to.frame("frame2")
 
-#perform all actvities on this frame
+driver.switch_to.frame("fr2")
+driver.find_element_by_name("data2").send_keys("varma")
+time.sleep(3)
 
-driver.switch_to.default_content()
-driver.switch_to.frame("frame3")
+driver.switch_to.default_content()#switch to main page
 
-#perform all actvities on this frame
+driver.switch_to.frame("fr3")
+driver.find_element_by_name("data3").send_keys("ramesh")
+time.sleep(3)
+
+driver.switch_to.default_content()#switch to main page
+
+driver.switch_to.frame("fr4")
+driver.find_element_by_name("data4").send_keys("suresh")
+time.sleep(3)
+
+driver.switch_to.default_content()#switch to main page
+driver.find_element_by_name("id").send_keys("1313131")
 
 
-driver.close 
+driver.close()

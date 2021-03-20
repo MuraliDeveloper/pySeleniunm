@@ -17,15 +17,15 @@ There are two types of classes:
       - any action 
       
 page class should contain the logic for :
- -> identifying the webelements
- -> any action on web element
+ A> identifying the webelements
+ B> any action on web element
  
-  so far the A & B is writeen in test class.
+  so far the A & B is writteen in test class.
  if we write in test class it is diffcult for reusabilty.
  that why we are moving the logic to the page class.
   
   
-  -> crate the obj for the class loginpage.
+-> crate the obj for the class loginpage.
 -> using the login page object call the functions for any actions or assertions.
 
 

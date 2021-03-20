@@ -1,0 +1,4 @@
+""2021-03-17 22:16:33" [    INFO] test_1 started (test_Ex3.py:21)"
+""2021-03-17 22:16:33" [   DEBUG] test_1 critical (test_Ex3.py:22)"
+""2021-03-17 22:16:33" [    INFO] test_2 started (test_Ex3.py:26)"
+""2021-03-17 22:16:33" [   DEBUG] test_2 critical (test_Ex3.py:27)"
