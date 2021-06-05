@@ -25,24 +25,22 @@ class MyTest(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
-        # close driver
-        global driver
         driver.close()
 
     def test1(self):
         # open google.com
         driver.get(BASE_URL+"ex1/")
-        time.sleep(5)
+        time.sleep(3)
 
     def test2(self):
        # open google.com
         driver.get(BASE_URL+"ex2/")
-        time.sleep(5)
+        time.sleep(3)
 
     def test3(self):
         # open google.com
         driver.get(BASE_URL + "alert/")
-        time.sleep(5)
+        time.sleep(3)
 
 
 

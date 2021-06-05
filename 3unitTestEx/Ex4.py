@@ -8,7 +8,7 @@ tearDown ->  everytime for every test function.[after every test function]
 
 import unittest
 
-x = 10
+ 
 
 class MyTest(unittest.TestCase):
 

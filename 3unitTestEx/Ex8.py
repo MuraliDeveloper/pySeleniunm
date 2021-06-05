@@ -15,7 +15,7 @@ from basics.commons import getChromeDriver
 driver = None
 
 class MyTest(unittest.TestCase):
-
+    
     @classmethod
     def setUpClass(cls):
         global  driver
@@ -23,8 +23,6 @@ class MyTest(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
-        # close driver
-        global driver
         driver.close()
 
     def test1(self):

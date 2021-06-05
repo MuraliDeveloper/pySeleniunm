@@ -2,21 +2,16 @@ from selenium import webdriver
 import time
 from basics import commons
 """
+Req:
 1.open browser
-2.navigate to google website 
-3.get the title of page
+2.navigate to google website  (https://www.google.com)
+3.print page url , title ,  session_id  , driver name ,
 4.close browser
 
 
 How to access the page title?
 print(driver.title)
-
-
-step1: get driver object using the driver software
-step2: access any url using driver obj .
-get() method
-step3: driver.close()
-
+ 
 
 print page url , title ,  session_id  , driver name , 
 

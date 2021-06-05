@@ -8,14 +8,7 @@ from basics import commons
 3.take screenshot
 4.close browser
 
-
-step1: get driver object using the driver software
-step2: access any url using driver obj .
-get() method
-step3: driver.close()
-
-
-how to take screenshot ?
+ how to take screenshot ?
 driver.save_screenshot("test.png")
 
 

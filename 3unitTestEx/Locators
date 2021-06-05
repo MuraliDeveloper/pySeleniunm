@@ -1,3 +1,55 @@
+Locator:
+-------------
+- is used to identify every webelement on the web page.
+- for every element on html we need to create the web element object
+
+- By ID
+- By Name
+- By xpath
+- By link text
+- By partial link text
+- By xpath
+- by css selector
+
+
+ By Name:
+------------------------------------
+<html>
+ <body>
+  <form id="loginForm">
+   <input name="username" type="text" />
+   <input name="password" type="password" />
+   <input name="age" type="text" />
+  </form>
+ </body>
+<html>
+
+unObj  = driver.find_element_by_name("username")
+pwdObj = driver.find_element_by_name("password")
+ageObj = driver.find_element_by_name("age")
+
+ 
+
+ By ID:
+------------------------------------
+<html>
+ <body>
+  <form id="loginForm">
+   <input id="username" type="text" />
+   <input id="password" type="password" />
+   <input id="age" type="text" />
+  </form>
+ </body>
+<html>
+
+unObj  = driver.find_element_by_id("username")
+pwdObj = driver.find_element_by_id("password")
+ageObj = driver.find_element_by_id("age")
+
+
+
+Get multiple elements
+------------------------------------
 <html>
  <body>
   <form id="loginForm">
@@ -8,17 +60,13 @@
  </body>
 <html>
 
-
-
-elements = driver.find_elements_by_name('username')
-
+unObjs  = driver.find_elements_by_name("username")  # list of web element object
 
 
 
 
-
-
-
+By Tag Name:
+-------------------------
 <html>
  <body>
   <h1>Welcome</h1>
@@ -26,25 +74,24 @@ elements = driver.find_elements_by_name('username')
 </body>
 <html>
 
-login_form = driver.find_elements_by_tag_name('h1')
+
+h1Obj  = driver.find_element_by_tag_name("h1")
 
 
+ 
 
+By Link text/partial link text:
+---------------------------------------------------------
+<a href="https://www.gmail.com">Open Gmail</a>
+<a href="https://www.google.com">Open google</a>
 
+obj1 = driver.find_element_by_linktext("Open Gmail")
+obj2 = driver.find_element_by_linktext("Open google")
 
-<html>
- <body>
-  <form id="loginForm">
-   <input name="username" type="text" />
-   <input name="password" type="password" />
-   <input name="continue" type="submit" value="Login" />
-  </form>
- </body>
-<html>
+obj3 = driver.find_element_by_partial_linktext("Gmail")
+obj4 = driver.find_element_by_partial_linktext("google")
 
-login_form = driver.find_element_by_id('loginForm')
-
-
+ 
 
 
 <html>
@@ -62,11 +109,6 @@ login_form = driver.find_elements_by_xpath("//form[1]")
 
 
 
-
-
-
-
-
 <html>
  <body>
   <p class="content">Site content goes here.</p>
@@ -74,7 +116,6 @@ login_form = driver.find_elements_by_xpath("//form[1]")
 <html>
 
 content = driver.find_elements_by_class_name('content')
-
 
 
 
@@ -87,3 +128,6 @@ content = driver.find_elements_by_class_name('content')
 content = driver.find_elements_by_css_selector('p.content')
 
 
+
+
+ 

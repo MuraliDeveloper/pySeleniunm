@@ -1,5 +1,9 @@
 import unittest
 """
+setUp()  and tearDown() :
+------------------------
+
+
 method override for 
 setUp()  
 -> is called before every test method
