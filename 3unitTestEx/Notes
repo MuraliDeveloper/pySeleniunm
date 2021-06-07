@@ -29,6 +29,19 @@ How to test if the elemnt is selected?
 	use element.is_selected() : returns boolean
 
 
+  How to get the attribute for the web element?
+   use getAttribute()
+  ex:
+     <input type="text" id="myname" name="uName" class="abcd>
+      firstNameObj = self.driver.find_element_by_name("uName")
+      
+      get type:
+      ----------
+      firstNameType = firstNameObj.getAttribute("type")  #text
+      firstNameId = firstNameObj.getAttribute("id")  #myname
+      firstNameclass  =  firstNameObj.getAttribute("class")  #abcd
+
+      
 how to get the attribute for web element and howto assert ?
   <input type="text" id="myname" name="uName" /> <br>
    <input type="text" name="LName" size="30"  width="30"/>
