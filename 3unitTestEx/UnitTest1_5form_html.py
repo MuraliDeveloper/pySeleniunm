@@ -86,35 +86,6 @@ class MyTest(BaseTest):  # Create a class which is a childclass of unittest.test
         otherradiobuttonobj.click()
         time.sleep(5)
 
-    def test5(self):
-        passportchechboxobj = self.driver.find_element_by_name("proof1")
-        voterchechboxobj = self.driver.find_element_by_name("proof2")
-        panchechboxobj = self.driver.find_element_by_name("proof3")
-        self.checkdisplayandenabled(passportchechboxobj,voterchechboxobj,panchechboxobj)
-
-        self.assertFalse(passportchechboxobj.is_selected())
-        self.assertFalse(voterchechboxobj.is_selected())
-        self.assertTrue(panchechboxobj.is_selected())
-
-        self.assertEqual(passportchechboxobj.get_attribute("type"), "checkbox")
-        self.assertEqual(voterchechboxobj.get_attribute("type"), "checkbox")
-        self.assertEqual(panchechboxobj.get_attribute("type"), "checkbox")
-
-        self.assertEqual(passportchechboxobj.get_attribute("value"), "passport")
-        self.assertEqual(voterchechboxobj.get_attribute("value"), "voter")
-        self.assertEqual(panchechboxobj.get_attribute("value"), "pan")
-
-        passportchechboxobj.click()
-        time.sleep(5)
-        voterchechboxobj.click()
-        time.sleep(5)
-        panchechboxobj.click() #unselect
-        time.sleep(5)
-
-        self.assertTrue(passportchechboxobj.is_selected())
-        self.assertTrue(voterchechboxobj.is_selected())
-        self.assertTrue(panchechboxobj.is_selected())
-
     def test6(self):
         textareaobj = self.driver.find_element_by_name("address")
         textareaobj.send_keys("19-12,marathahalli,Bangalore,KA")
