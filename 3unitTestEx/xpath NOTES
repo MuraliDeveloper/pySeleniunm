@@ -51,6 +51,11 @@ WebElement =driver.find_element_by_xpath("//a[@href='https://www.gmail.com']")
 WebElement =driver.find_element_by_xpath("//a[contains(@href,'gmail')]")
 WebElement =driver.find_element_by_xpath("//a[contains(text(),'gmail page')]")  -- partial serach by text
 
+ <img src='ProfilePic123445.jpg'/>
+  Xpath= //img[contains(@src,’Profile’)] - similar match
+  Xpath = //img[@src='ProfilePic123445.jpg']  - exact match
+
+
 
 GET BUTTONS:
 ---------------------------
@@ -71,4 +76,10 @@ WebElement =self.findbyxpath("//input[@type='submit' or @name='btnReset']")
 //td[text()='age']
 
 
+
+
+
+WebElement1 =self.find_element_by_xpath("//td[text()=='UserID']")
+WebElement1 =self.find_element_by_xpath("//td[text()=='name']")
+WebElement1 =self.find_element_by_xpath("//td[text()=='age']")
 

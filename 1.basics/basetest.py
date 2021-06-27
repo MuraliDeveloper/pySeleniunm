@@ -1,7 +1,10 @@
 #basetext
 import unittest
-from basics import commons
+
 from selenium import webdriver
+
+from util import commons
+
 
 
 class BaseTest(unittest.TestCase):     # Create a class which is a childclass of unittest.testcase

@@ -39,7 +39,9 @@ assert "hello" == "Hai" is an assertion failure.
 assert 4==4 is a successful assertion
 assert True is a successful assertion
 assert False is an assertion failure.
-
+x= 90
+y=40
+assert y==x
 
 
 
@@ -48,8 +50,10 @@ How to run:
 python -m pytest Ex1.py OR
 pytest test_Ex5.py
 
+run with report:
+------------------------------
 python -m pytest Ex1.py --html-report=./report
-python -m pytest Ex1.py --html-report=./report/report.html
+ pytest Ex1.py --html-report=./report/report.html
 
 # Find and run all pytests from the current directory
 python -m pytest
@@ -91,7 +95,7 @@ $ pytest tests/ --html-report=./report/report.html
 run parallel:
 ---------------------
 need : pip install pytest-xdist
-python -m pytest -n 4
+pytest -n 4
 
 code coverage:
 -------------------------

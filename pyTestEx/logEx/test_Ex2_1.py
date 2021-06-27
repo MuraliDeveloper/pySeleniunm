@@ -3,7 +3,6 @@ run using :
 1.pytest test_Ex2.py
 2.pytest --capture=no test_Ex2.py
 
-
 """
 import logging
 

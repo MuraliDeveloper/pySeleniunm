@@ -4,7 +4,7 @@ from selenium.webdriver import Chrome, Firefox
 
 from basics import commons
 
-CONFIG_PATH = 'tests/config.json'
+CONFIG_PATH = 'Ex0/config.json'
 DEFAULT_WAIT_TIME = 10
 SUPPORTED_BROWSERS = ['chrome', 'firefox']
 

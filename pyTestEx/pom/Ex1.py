@@ -2,14 +2,14 @@ import pytest
 from selenium.webdriver import Chrome
 import time
 
-from basics import commons
 from pom6.loginpage import loginpage
+from util.commons import getChromeDriver
 
 
 @pytest.fixture
 def browser():
     # Initialize ChromeDriver
-    driver = commons.getChromeDriver()
+    driver =  getChromeDriver()
     # Wait implicitly for elements to be ready before attempting interactions
     driver.implicitly_wait(10)
 

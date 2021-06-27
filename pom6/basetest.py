@@ -6,7 +6,7 @@ import time
 
 from empdemo5 import commons
 
-
+URL = "http://loclhost:8086/EmpDemo/"
 class BaseTest(unittest.TestCase):     # Create a class which is a childclass of unittest.testcase
     driver=None
 
@@ -41,26 +41,6 @@ class BaseTest(unittest.TestCase):     # Create a class which is a childclass of
         elementobj = self.driver.find_element_by_link_text(link_text)
         self.checkDisplayAndEnabled(elementobj)
         return elementobj
-
-    def login(self, userName, password):
-            # enter login name
-            elementobj = self.driver.find_element_by_name("loginName")
-            self.assertTrue(elementobj.is_enabled())
-            self.assertTrue(elementobj.is_displayed())
-            elementobj.send_keys(userName)
-
-            # enter password
-            passwordObj = self.driver.find_element_by_name("password")
-            self.assertTrue(passwordObj.is_enabled())
-            self.assertTrue(passwordObj.is_displayed())
-            passwordObj.send_keys(password)
-            time.sleep(3)
-
-            # click on login button
-            loginObj = self.driver.find_element_by_xpath("//input[@value='Login']")
-            self.assertTrue(loginObj.is_enabled())
-            self.assertTrue(loginObj.is_displayed())
-            loginObj.click()
 
     def checkHeaderlinks(self):
         self.linkvalidation("logout","empProfile","mySubordinates",)

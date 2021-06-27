@@ -1,0 +1,32 @@
+"""
+Parametrized Tests
+What if we want to run the same test procedure with multiple input combos?
+pytest has a decorator for that! Let’s write a new test for multiplication with parametrized inputs:
+"""
+
+steps:
+-----------
+1.define the data
+2.pass the data to the test method
+
+How to define the data?
+-----------------------------------
+
+@pytest.mark.parametrize(
+  "id",
+  [(100), (200), (300), (400), (500)]
+)
+
+2.How to pass the data to the test method?
+--------------------------------------------------
+def test_Ids(id):
+    print(id)
+
+
+
+
+@pytest.mark.parametrize(
+  "a,b,expected",
+  [(0, 5, 0), (1, 5, 5), (2, 5, 10), (-3, 5, -15), (-4, -5, 20)]
+)
+

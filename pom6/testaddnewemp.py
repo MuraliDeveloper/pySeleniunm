@@ -1,14 +1,11 @@
 import time
-import commons
 
-from empdemo.basetest import BaseTest
+
+
 from selenium.webdriver.common.action_chains import ActionChains
 
-from pom.addnewemppage import addnewemppage
-from pom.changepasswordpage import changepasswordpage
-from pom.loginpage import loginpage
-
-
+from pom6.basetest import BaseTest
+from pom6.loginpage import loginpage
 
 
 class MyTest(BaseTest):

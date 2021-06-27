@@ -7,18 +7,29 @@ import time
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.action_chains import ActionChains
 
+"""
+   1.test with valid username and password
+   2.test with  valid username and invalid password
+   3.test with invalid username and  password
+   4.test with empty username
+   5.test with empty password
+   6.test with empty username and password
+"""
+
+
 from basics import commons
 from basics.commons import getChromeDriver
 
-class MyTest(unittest.TestCase):  # Create a class which is a childclass of unittest.testcase
+
+class MyTest2(unittest.TestCase):  # Create a class which is a childclass of unittest.testcase
     driver = None
+
     def setUp(self):
         print("setup function called")
         self.driver = getChromeDriver()
-        time.sleep(5)
-        self.driver.get(commons.app_url )
-        time.sleep(5)
-        self.assertEqual("Welcome to Employee Application", self.driver.title, "invalid title for login.html")
+        self.driver.get("http://localhost:8082/EmpDemo/" )
+        time.sleep(3)
+        self.assertEqual("Employee Application", self.driver.title, "invalid title for login.html")
 
 
     # 1.test with valid username and password
@@ -82,7 +93,6 @@ class MyTest(unittest.TestCase):  # Create a class which is a childclass of unit
     def testLoginWithEmptyUnameAndPassword(self):
         self.login("", "")
 
-
         alertObj = self.driver.switch_to.alert  # to get the alert obj
         msg = alertObj.text  # to get the alert msg
         self.assertEqual("Please provide loginName!", msg, "invalid msg for alert1")
@@ -90,7 +100,27 @@ class MyTest(unittest.TestCase):  # Create a class which is a childclass of unit
         alertObj.accept()
         time.sleep(5)
 
-#below not tested
+    def login(self, userName, password):
+            # enter login name
+            elementobj = self.driver.find_element_by_name("loginName")
+            self.assertTrue(elementobj.is_enabled())
+            self.assertTrue(elementobj.is_displayed())
+            elementobj.send_keys(userName)
+
+            # enter password
+            passwordObj = self.driver.find_element_by_name("password")
+            self.assertTrue(passwordObj.is_enabled())
+            self.assertTrue(passwordObj.is_displayed())
+            passwordObj.send_keys(password)
+            time.sleep(3)
+
+            # click on login button
+            loginObj = self.driver.find_element_by_xpath("//input[@value='Login']")
+            self.assertTrue(loginObj.is_enabled())
+            self.assertTrue(loginObj.is_displayed())
+            loginObj.click()
+
+            # below not tested
 
     def testLoginAdmin(self):
         self.findbyname("loginName").send_keys("admin")
@@ -116,27 +146,6 @@ class MyTest(unittest.TestCase):  # Create a class which is a childclass of unit
         self.driver.find_element_by_link_text("Show All Departments")
         self.driver.find_element_by_link_text("Logout")
         time.sleep(5)
-
-    def login(self, userName, password):
-            # enter login name
-            elementobj = self.driver.find_element_by_name("loginName")
-            self.assertTrue(elementobj.is_enabled())
-            self.assertTrue(elementobj.is_displayed())
-            elementobj.send_keys(userName)
-
-            # enter password
-            passwordObj = self.driver.find_element_by_name("password")
-            self.assertTrue(passwordObj.is_enabled())
-            self.assertTrue(passwordObj.is_displayed())
-            passwordObj.send_keys(password)
-            time.sleep(3)
-
-            # click on login button
-            loginObj = self.driver.find_element_by_xpath("//input[@value='Login']")
-            self.assertTrue(loginObj.is_enabled())
-            self.assertTrue(loginObj.is_displayed())
-            loginObj.click()
-
 
 
 

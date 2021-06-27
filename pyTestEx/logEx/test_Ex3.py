@@ -8,6 +8,8 @@ run using :
 
 
 pytest.ini:
+-------------------------
+console output
 
 [pytest]
 log_cli = 1
@@ -17,6 +19,7 @@ log_cli_date_format=%Y-%m-%d %H:%M:%S
 
 
 OR
+file output
 
 [pytest]
 log_file = pytest.log

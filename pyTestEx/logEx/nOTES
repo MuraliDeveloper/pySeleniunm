@@ -1,6 +1,6 @@
 using print() is costly.
-print() is noit friendly and cannot be customized
-print() cannt be used for printing to the file
+print() is not friendly and cannot be customized
+print() cannot be used for printing to the file
 and formatting the messages and messgae level is not possible
 
 How to use loggers?

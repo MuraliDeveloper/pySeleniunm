@@ -4,54 +4,61 @@ from empdemo5.basetest import BaseTest
 from selenium.webdriver.common.action_chains import ActionChains
 from pom6.loginpage import loginpage
 
+"""
+   1.test with valid username and password
+   2.test with  valid username and invalid password
+   3.test with invalid username and  password
+   4.test with empty username
+   5.test with empty password
+   6.test with empty username and password
+"""
+
 class MyTest(BaseTest):  # Create a class which is a childclass of unittest.testcase
 
+    #create the obj for loginpage class
     def setUp(self):
         BaseTest.setUp(self)
         self.loginpageobj=loginpage(self.driver)
         time.sleep(5)
 
-
-    def testlogintoappbyvaliduser(self):
-        self.loginpageobj.login("admin","mahetha")
+    # 1.test with valid username and valid password
+    def testLoginWithValiduser(self):
+        self.loginpageobj.login("admin","admin")
         time.sleep(5)
+        self.loginpageobj.validateTitle()
 
-    def testloginwithemptyuername(self): #negative test case
-        self.loginpageobj.login("", "mahetha")
-        alertObj = self.driver.switch_to.alert  # to get the alert obj
-        msg = alertObj.text  # to get the alert msg
-        self.assertEqual("Please provide loginName!", msg, "invalid msg for alert1")
-        time.sleep(5)
-        alertObj.accept()
-        time.sleep(5)
+    # 2.test with valid username and invalid password
+    def testLogintoAppbyInvalidCreds(self):
+        self.loginpageobj.login("admin", "admin1")
+        time.sleep(3)
+        self.loginpageobj.validateInvalidLogin()
 
-    def testloginwithemptypassword(self):
+        time.sleep(2)
+
+    # 3.test with invalid username and invalid password
+    def testLogintoAppbyInvalidUnAndPass(self):
+        self.loginpageobj.login("admin1", "admin1")
+        time.sleep(3)
+        self.loginpageobj.validateInvalidLogin()
+        time.sleep()
+
+    #4 test with empty username
+    def testLoginWithEmptyUsername(self): #negative test case
+        self.loginpageobj.login("", "xyz")
+        self.loginpageobj.validateUserEmpty()
+        time.sleep(2)
+
+    # 5 test with empty pass
+    def testLoginWithEmptyPassword(self):
         self.loginpageobj.login("admin", "")
-        alertObj = self.driver.switch_to.alert  # to get the alert obj
-        msg = alertObj.text  # to get the alert msg
-        self.assertEqual("Please provide Password!", msg, "invalid msg for alert1")
-        time.sleep(5)
-        alertObj.accept()
-        time.sleep(5)
-    def testloginwithusernameandemptypassword(self):
-        self.loginpageobj.login("","")
-        alertObj = self.driver.switch_to.alert  # to get the alert obj
-        msg = alertObj.text  # to get the alert msg
-        self.assertEqual("Please provide loginName!", msg, "invalid msg for alert1")
-        time.sleep(5)
-        alertObj.accept()
-        time.sleep(5)
-    def testvalidusernameandwrongpassword(self):
-        self.loginpageobj.login("admin", "admin")
-        time.sleep(5)
-    def testvalidpasswordandwrongusername(self):
-        self.loginpageobj.login("naresh", "mahetha")
-        time.sleep(5)
+        self.loginpageobj.validatePasswordEmpty()
+        time.sleep(2)
 
-    def testinvaliduser(self):
-        self.loginpageobj.login("naresh", "mahetha")
+    # 6  test with empty username and pass
+    def testLoginWithEmptyUsernameAndEmptypassword(self):
+        self.loginpageobj.login("", "")
+        self.loginpageobj.validateUserEmpty()
 
-        time.sleep(5)
 
 
 

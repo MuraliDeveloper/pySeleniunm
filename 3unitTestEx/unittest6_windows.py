@@ -27,6 +27,9 @@ driver.switch_to.window(win1)  #switches to the 1st window
 driver.switch_to.window(win2)  #switches to the 2nd window
 
 
+currWinName = driver.current_window_handle # parent win name
+
+
 How to click on link?
 1.get the webelement obj
 2.call click() method
@@ -48,7 +51,9 @@ linkObj = driver.find_element_by_partial_link_text("Window")
 linkObj.click()
 
 
+
 """
+
 class MyTest(BaseTest):  # Create a class which is a childclass of unittest.testcase
 
     def setUp(self):
